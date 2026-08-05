@@ -49,8 +49,6 @@ Ao final do curso, o aluno será capaz de:
 | 07 | Gênero e Gênero Mental | XIII, XIV | 7º |
 | 08 | Axiomas Herméticos e Aplicação Integrada (projeto final) | XV | Síntese |
 
-Cada módulo tem seu arquivo em `curso/modulos/`.
-
 ## Metodologia (prática em primeiro lugar)
 
 Cada aula segue um roteiro terapêutico:
@@ -76,10 +74,9 @@ rastreio de humor/energia, escala de estados, gratidão, frases-guia e visualiza
 
 ## Recursos de apoio
 
-- `livro/caibalion-sem-timestamps.md` — texto-fonte (ver aviso de fidelidade).
-- `curso/recursos/axiomas.md` — os sete axiomas e máximas.
-- `curso/recursos/glossario.md` — termos herméticos.
-- `curso/recursos/mapa-correspondencias.md` — como os princípios se conectam.
+- **Os 7 Axiomas** — os princípios herméticos e suas máximas.
+- **Glossário** — termos herméticos explicados.
+- **Mapa de correspondências** — como os sete princípios se conectam.
 
 ## Observações de integridade
 

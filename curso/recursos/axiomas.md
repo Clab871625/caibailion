@@ -55,7 +55,3 @@ inclusive no mental (o "Eu" e o "Mim").
 
 ## Máxima prática (Cap. XV)
 > "A verdadeira transmutação hermética é uma arte mental."
-
-> *Observação:* os axiomas acima seguem a formulação clássica do Caibalion. A
-> transcrição em `livro/` (legenda de áudio) pode apresentar variações de redação;
-> em caso de dúvida, prevalece a formulação desta página.

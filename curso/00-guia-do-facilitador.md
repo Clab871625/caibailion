@@ -1,52 +1,40 @@
 # Guia do Facilitador
 
-Orientações para conduzir o curso "O Caibalion: As Sete Leis Herméticas".
+Orientações para quem vai conduzir o curso "O Caibalion: As Sete Leis Herméticas" com
+uma turma — presencial ou online. (Se você é aluno individual, pode pular este guia.)
 
 ## Antes de começar
 
-- Leia a `ementa.md` e o `CLAUDE.md` (postura pedagógica e enquadramento honesto).
-- Familiarize-se com os sete axiomas em `recursos/axiomas.md`.
-- Decida o formato: autoinstrucional, turma online ao vivo, ou presencial.
+- Familiarize-se com a ementa e com os sete axiomas.
+- Faça você mesmo as práticas antes de propô-las — conduzir vem da experiência.
+- Decida o formato: autoinstrucional, turma online ao vivo ou presencial.
 
 ## Ritmo sugerido
 
-- 1 módulo por semana (8 semanas), ou 2 módulos por encontro (curso intensivo de 4 encontros).
-- Cada módulo: exposição → exemplo → exercício → discussão.
+- 1 módulo por semana (8 semanas), ou 2 módulos por encontro (intensivo de 4 encontros).
+- Peça que cada participante mantenha um **diário de práticas** ao longo do curso.
 
-## Método de cada aula (4 passos)
+## Como conduzir cada aula
 
-1. **Enunciar** o princípio e o axioma (peça que alguém leia em voz alta).
-2. **Explicar** em linguagem simples, sem jargão.
-3. **Ilustrar** com um exemplo do cotidiano (use as analogias do próprio livro:
-   pêndulo, termômetro, oitavas musicais, marés).
-
-4. **Exercitar**: aplicar a uma situação real; abrir para partilha.
+1. **Abrir** com um minuto de silêncio/respiração (o "minuto de chegada").
+2. **Apresentar a ideia** do princípio em linguagem simples, sem jargão.
+3. **Conduzir a prática** ao vivo, guiando os passos com calma e pausas.
+4. **Abrir a partilha** — quem quiser compartilha o que sentiu; ninguém é obrigado.
 
 ## Boas práticas
 
-- **Não dogmatize.** Apresente como sistema de ideias a experimentar, não verdade absoluta.
+- **Não dogmatize.** Apresente como um sistema de ideias a experimentar, não como verdade absoluta.
 - **Contextualize a história.** Deixe claro que o Caibalion é de 1908 (Novo Pensamento)
-  e que a moldura egípcia/Hermes é narrativa, não fato histórico.
-
-- **Cuidado com promessas.** "Transmutação mental" é prática reflexiva de
-  autodesenvolvimento — não é cura, não é garantia de resultados materiais, não
-  substitui ajuda médica, psicológica ou financeira. Reforce isso quando necessário.
-
+  e que a figura de Hermes é narrativa, não fato histórico.
+- **Cuidado com promessas.** As práticas são de autoconhecimento e bem-estar — não são
+  cura, não garantem resultados materiais e **não substituem** ajuda médica ou
+  psicológica. Reforce isso sempre que necessário e tenha à mão o contato do CVV (188).
+- **Respeite o ritmo de cada um.** Ninguém deve ser pressionado a compartilhar ou a
+  continuar uma prática que o desregule.
 - **Acolha o ceticismo.** Perguntas críticas enriquecem; trate-as com respeito.
 
 ## Avaliação
 
-- Formativa: exercícios ao fim de cada aula.
-- Somativa: 1 dissertativa + 1 aplicação por módulo.
-- Projeto final (Módulo 08): análise de um caso real pelos sete princípios.
-
-## Usando a IA (Claude) como coautor/tutor
-
-O `CLAUDE.md` configura o assistente para:
-
-- responder dúvidas ancorando cada explicação em um princípio + axioma;
-- ajudar a desenvolver o conteúdo completo das aulas a partir dos esqueletos;
-- manter o enquadramento honesto e o uso responsável.
-
-Peça, por exemplo: *"desenvolva a Aula 05.2 (Polaridade) em texto completo, com 3
-exemplos e 2 exercícios"* — o assistente seguirá a estrutura já definida.
+- Formativa: as práticas e registros no diário ao longo das aulas.
+- Somativa por módulo: uma reflexão escrita + uma aplicação prática.
+- Projeto final (Módulo 08): o plano de transformação pessoal de 30 dias.
