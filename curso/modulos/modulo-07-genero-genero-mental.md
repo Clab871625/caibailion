@@ -1,119 +1,73 @@
-# Módulo 07 — Gênero e Gênero Mental
+# Módulo 07 — Gênero Mental: plantar e cultivar o que você quer ser
 
 **Capítulos-fonte:** Cap. XIII (O Gênero), Cap. XIV (O Gênero Mental)
 
-**Resumo do módulo:** O 7º e último princípio trata da **geração** — como algo novo
-vem a existir em qualquer plano. E sua aplicação mais fina é o **Gênero Mental**: como
-criamos ideias, tomamos decisões e nos autoinfluenciamos, através da relação entre o
-"Eu" e o "Mim".
+**Foco terapêutico deste módulo:** o princípio do Gênero trata de **como algo novo
+nasce**. No trabalho interior, isso vira a arte de **plantar intenções** (o "Eu" que
+decide) e **cultivá-las** (o "Mim" receptivo, o subconsciente que as faz germinar). É a
+base de uma autossugestão saudável e da criação consciente de novos hábitos internos.
+
+> **Lembrete de cuidado:** autossugestão saudável é gentil e realista — não é forçar
+> "pensamento positivo" por cima da dor. Se houver crenças muito rígidas ou
+> autodepreciação intensa, um terapeuta ajuda a trabalhá-las com segurança.
 
 ---
 
-## Aula 07.1 — O Princípio do Gênero
+## Aula 07.1 — Dois princípios em você: o que inicia e o que gesta
 
-**Objetivos de aprendizagem**
+**A ideia.** *"O gênero está em tudo."* Em toda criação há um princípio que **inicia**
+(masculino, no sentido do Caibalion — projeta, decide) e um que **gesta** (feminino —
+recebe, elabora, dá à luz). Não é sobre sexo biológico: **toda pessoa tem e usa os
+dois**, o tempo todo, sobretudo ao criar algo — uma ideia, um projeto, uma nova versão
+de si.
 
-- Enunciar e explicar o 7º princípio: *"O gênero está em tudo."*
-- Distinguir **gênero** (princípio de geração) de **sexo** (manifestação biológica).
+**Como isso aparece em você.** Talvez você seja ótimo em ter ideias, mas trave na
+gestação (levar até o fim); ou ótimo em executar, mas com dificuldade de iniciar/decidir.
+Reconhecer isso mostra qual "polo" desenvolver.
 
-### O que o princípio afirma
-
-> "O gênero está em tudo; tudo tem seus princípios masculino e feminino; o gênero se
-> manifesta em todos os planos." — O Caibalion
-
-O Gênero, no Caibalion, é o princípio pelo qual **algo novo é criado ou gerado**.
-Toda criação envolve dois papéis complementares: um **princípio masculino**, que
-inicia, projeta, dá o impulso; e um **princípio feminino**, que recebe, gesta,
-elabora e faz vir à existência. Não são "coisas", são **funções** presentes em todos
-os planos — do físico ao mental.
-
-### Gênero ≠ sexo
-
-Ponto essencial para evitar confusões: **gênero** (o princípio de geração) é bem mais
-amplo que **sexo** (a manifestação biológica em seres vivos). O sexo é apenas uma das
-formas do gênero no plano físico. No átomo, nos polos elétricos, na dinâmica das
-células, e sobretudo na mente, o mesmo par funcional — iniciar/gestar — opera sem ter
-nada a ver com biologia. Toda pessoa, qualquer que seja, carrega **os dois princípios**
-e os usa o tempo todo, especialmente ao criar.
-
-**Exemplos/analogias**
-
-- **Polos do ímã / cargas elétricas:** positivo e negativo não valem nada isolados;
-  é da relação entre eles que surge a corrente. Complementaridade que gera.
-
-- **A obra e a ideia:** uma ideia (impulso, princípio masculino) precisa ser "gestada"
-  no trabalho paciente (elaboração, princípio feminino) para virar uma obra concreta.
-
-**Exercício / reflexão**
-
-1. Pense em algo que você criou (um projeto, um texto, uma solução). Identifique nele o
-   "polo que iniciou" (impulso) e o "polo que gestou/realizou" (elaboração).
-
-2. Qual dos dois princípios você exercita com facilidade e qual precisa desenvolver?
-
-**Pontos-chave**
-
-- Gênero é o princípio da geração: iniciar (masculino) + gestar (feminino).
-- Está em todos os planos; **gênero não é sexo**.
-- Cada pessoa contém e usa os dois princípios, sobretudo ao criar.
+### 🌱 Prática 1 — Quem inicia e quem gesta em mim (15 min)
+No diário:
+1. Onde na minha vida eu **inicio** com facilidade, mas não sustento?
+2. Onde eu **executo/sustento** bem, mas custo a iniciar?
+3. Qual dos dois "músculos" eu preciso fortalecer agora? Escreva um exemplo concreto para treinar.
 
 ---
 
-## Aula 07.2 — O Gênero Mental
+## Aula 07.2 — O "Eu" e o "Mim": semear a mente com cuidado
 
-**Objetivos de aprendizagem**
+**A ideia.** O Caibalion aplica o Gênero à mente: o **"Eu"** é a vontade que dirige a
+atenção; o **"Mim"** é a parte receptiva (imaginação, subconsciente) que recebe as
+"sementes" e as faz frutificar em humores, hábitos e ideias. Se você não escolhe o que
+semear, o "Mim" é plantado ao acaso — por notícias, medos, comparações. A prática é
+**escolher a semente** e **regá-la** com atenção e repetição.
 
-- Explicar o Gênero aplicado à mente: o **"Eu"** e o **"Mim"**.
-- Compreender autossugestão e criação mental à luz deste princípio.
+**Como isso aparece em você.** Aquilo que você repete para si por dentro vira solo. "Não
+sou capaz", repetido, germina insegurança. Uma semente melhor, cultivada com constância,
+também germina.
 
-### O "Eu" e o "Mim"
+### 🌾 Prática 2 — Plantar uma semente (frase-guia) (15 min)
+1. Escolha **uma** intenção realista e positiva, no presente e sobre você (ex.: *"eu
+   posso aprender no meu tempo"*, *"eu mereço cuidado"*). Evite negações e exageros.
+2. Escreva-a no diário e em um lembrete visível.
+3. **Regue** 2×/dia: de manhã e à noite, respire fundo e repita a frase 3 vezes, devagar,
+   deixando o sentido descer (não é decorar — é sentir).
 
-O Caibalion aplica o Gênero ao interior da mente com uma distinção fina. Há em nós um
-**"Eu"** — o princípio masculino mental: a vontade, a atenção que dirige, o que decide
-e projeta. E há um **"Mim"** — o princípio feminino mental: a parte receptiva,
-imaginativa e habitual (o que hoje associaríamos ao subconsciente), que recebe as
-impressões, as elabora e as faz frutificar em hábitos, humores e ideias.
+### 🌙 Prática 3 — Semear antes de dormir (diária)
+Antes de dormir, em vez de rolar notícias, "entregue ao Mim" uma boa pergunta ou
+imagem: *"como eu gostaria de me sentir amanhã?"* ou visualize por 2 minutos você
+agindo do jeito que deseja. O subconsciente trabalha no sono; dê a ele bom material.
 
-A criação mental acontece na **relação** entre os dois: o "Eu" planta (dirige a
-atenção, escolhe a imagem, formula a intenção) e o "Mim" gesta (incuba, associa,
-devolve pronto — muitas vezes horas ou dias depois, como o "insight" que "surge do
-nada"). Quando essa relação está desregulada, o "Mim" é semeado ao acaso, por qualquer
-sugestão externa; quando está bem conduzida, o "Eu" escolhe **o que** semear.
+### 🖼️ Prática 4 — Visualização do cultivo (10 min, 3×/semana)
+Sente-se, feche os olhos e imagine, com detalhes sensoriais, uma cena em que você já
+vive a mudança que deseja (não o resultado mágico externo, mas **você** sereno, firme,
+gentil). Sinta no corpo. Isso rega a mesma semente por outra via.
 
-### Autossugestão como semeadura
-
-A autossugestão, entendida assim, deixa de ser truque e vira **jardinagem mental**:
-escolher com cuidado a "semente" (uma intenção, uma imagem, uma frase-guia) e cultivá-la
-com **atenção e repetição**, deixando o "Mim" fazer o seu trabalho de gestação. Não é
-mágica nem controle absoluto: é a aplicação paciente do Gênero ao próprio interior — e
-o encontro natural de todos os princípios anteriores (Mentalismo, Vibração, Polaridade,
-Ritmo, Causa).
-
-**Exemplos/analogias**
-
-- **Semente e solo:** a ideia é a semente (princípio masculino); a imaginação/subconsciente
-  é o solo (princípio feminino) que a faz germinar. Sem solo, a semente seca; sem semente,
-  o solo produz mato.
-
-- **O problema que "resolve sozinho":** você formula bem a pergunta à noite (o "Eu"
-  semeia) e acorda com a resposta (o "Mim" gestou). Gênero mental em ação.
-
-**Exercício / reflexão**
-
-1. Formule **uma** "semente" mental positiva e realista (uma intenção ou frase-guia).
-2. Descreva como você vai **cultivá-la** com atenção e repetição por sete dias.
-3. Ao final, observe: o "Mim" devolveu algo (ideias, disposição, mudança de humor)?
-
-**Pontos-chave**
-
-- Na mente: "Eu" (vontade que dirige) e "Mim" (receptivo que gesta).
-- Criar mentalmente é o "Eu" semear e o "Mim" gestar.
-- Autossugestão bem-feita é jardinagem mental — atenção + repetição, não mágica.
+**Prática da semana.** Regar a frase-guia 2×/dia + semear antes de dormir todas as noites
++ visualização 3×/semana.
 
 ---
 
-## Avaliação do módulo
-
-- **Dissertativa:** explique a diferença entre gênero e sexo e descreva a dinâmica "Eu"/"Mim".
-- **Aplicação:** relate o resultado do seu experimento de "semeadura" mental de sete dias.
-- **Critérios:** clareza na distinção gênero × sexo, compreensão do gênero mental e honestidade na aplicação.
+## Fechamento do módulo
+- **Reflexão:** qual semente você vinha plantando sem perceber? Qual escolhe plantar agora?
+- **Aplicação:** qual é a sua frase-guia da semana e como foi regá-la?
+- **Autoavaliação:** a frase é gentil e realista (não uma negação forçada da sua realidade)?

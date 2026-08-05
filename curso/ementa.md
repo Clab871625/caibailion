@@ -2,21 +2,29 @@
 
 ## Apresentação
 
-Curso introdutório de filosofia hermética a partir de *O Caibalion* (Três Iniciados,
-1908). Percorre os **Sete Princípios Herméticos** — Mentalismo, Correspondência,
-Vibração, Polaridade, Ritmo, Causa e Efeito e Gênero — unindo estudo do texto,
-exemplos do cotidiano e exercícios práticos de "alquimia mental" (autodesenvolvimento).
+Curso **prático e terapêutico** de autoconhecimento a partir de *O Caibalion* (Três
+Iniciados, 1908). Cada um dos **Sete Princípios Herméticos** — Mentalismo,
+Correspondência, Vibração, Polaridade, Ritmo, Causa e Efeito e Gênero — é convertido em
+**ferramentas de trabalho interior**: respiração, escrita/diário, reenquadramento,
+rastreio de estados, ancoragem corporal e autossugestão. O aluno não apenas estuda: ele
+**pratica**, mantendo um diário de práticas do início ao fim.
+
+> **Natureza e limites:** este é um curso de **autodesenvolvimento e bem-estar**. As
+> práticas **complementam** e **não substituem** psicoterapia, acompanhamento médico ou
+> psiquiátrico. Em caso de sofrimento intenso, procure um profissional de saúde mental
+> (no Brasil, CVV: 188, 24h).
 
 ## Objetivos de aprendizagem
 
 Ao final do curso, o aluno será capaz de:
 
-1. Explicar o contexto histórico e a proposta do *Caibalion* (sem confundir lenda e história).
-2. Enunciar e explicar cada um dos sete princípios e seus axiomas.
-3. Reconhecer os princípios operando em situações concretas (natureza, mente, relações).
-4. Aplicar a "transmutação mental" como prática reflexiva de mudança de estados internos.
-5. Relacionar os princípios entre si (correspondência, polaridade e ritmo, etc.).
-6. Posicionar criticamente a obra dentro do Novo Pensamento e da tradição esotérica.
+1. Manter uma **rotina de práticas** de autorregulação e autoconhecimento.
+2. **Observar a própria mente** e distinguir fato de história (interpretação).
+3. **Transmutar estados internos** — acolher e mover-se do polo que dói ao que cura.
+4. Reconhecer **padrões pessoais** que se repetem e transferir recursos entre áreas da vida.
+5. **Atravessar fases baixas** (Ritmo) e sair do lugar de efeito para o de causa.
+6. **Cultivar novos hábitos internos** com autossugestão gentil e realista.
+7. Situar a obra com honestidade (Novo Pensamento, 1908) e usar as práticas com segurança.
 
 ## Público-alvo e pré-requisitos
 
@@ -43,14 +51,18 @@ Ao final do curso, o aluno será capaz de:
 
 Cada módulo tem seu arquivo em `curso/modulos/`.
 
-## Metodologia
+## Metodologia (prática em primeiro lugar)
 
-Para cada princípio, o roteiro didático é:
+Cada aula segue um roteiro terapêutico:
 
-1. **Enunciar** o princípio e seu axioma.
-2. **Explicar** em linguagem simples.
-3. **Ilustrar** com um exemplo do cotidiano/natureza (as próprias imagens do livro).
-4. **Exercitar** com uma prática reflexiva ou pergunta de discussão.
+1. **A ideia** — o princípio em poucas linhas, aplicado à vida interior.
+2. **Como isso aparece em você** — autobservação guiada.
+3. **Prática(s)** — exercícios concretos que o aluno realiza (com passos, duração e o que registrar).
+4. **Registro** — anotação no diário de práticas.
+
+Ferramenta central: um **diário de práticas** mantido do Módulo 1 ao 8. As práticas
+incluem respiração e ancoragem, escrita reflexiva, reenquadramento (fato × história),
+rastreio de humor/energia, escala de estados, gratidão, frases-guia e visualização.
 
 ## Avaliação
 

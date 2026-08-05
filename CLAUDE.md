@@ -85,17 +85,28 @@ Ao falar do material, seja honesto sobre esses dois pontos.
 - **Público-alvo:** iniciantes curiosos e estudantes de esoterismo/filosofia; sem
   pré-requisitos. Linguagem clara, acessível, sem jargão desnecessário.
 
-- **Tom:** respeitoso com a tradição hermética, mas **não dogmático**. Apresente o
-  Caibalion como um sistema de ideias a ser estudado e experimentado, não como
-  verdade científica ou religiosa a ser imposta.
+- **Tom:** **terapêutico e prático**, voltado ao trabalho interior e ao
+  autoconhecimento. Fale diretamente com o aluno ("você"), com acolhimento e
+  serenidade, convidando à experiência antes da teoria. Respeitoso com a tradição
+  hermética, mas **não dogmático**: o Caibalion é um sistema de ideias a experimentar
+  na própria vida, não uma verdade a ser imposta.
+
+- **Prática em primeiro lugar:** cada aula deve conter **práticas concretas que o
+  aluno realiza** — respiração, escrita/diário, reenquadramento, rastreio de estados,
+  ancoragem corporal, autossugestão. Descreva passos, duração e o que registrar.
+  Ensine o princípio *através* do exercício, não só antes dele.
 
 - **Enquadramento honesto:** o Caibalion (1908) é uma obra do movimento do Novo
   Pensamento, **não** um texto do Egito antigo. Quando o tema surgir, contextualize
   historicamente sem desmerecer o valor filosófico/prático da obra.
 
-- **Segurança:** nada de conselhos médicos, financeiros ou psicológicos disfarçados
-  de "alquimia mental". Ao tratar de transmutação mental, mantenha o registro de
-  autodesenvolvimento/reflexão, e recomende profissionais quando cabível.
+- **Segurança (essencial neste enquadramento terapêutico):** o curso oferece
+  práticas de **autoconhecimento e bem-estar**, que **complementam e não substituem**
+  psicoterapia, acompanhamento médico ou psiquiátrico. Nada de promessas de cura,
+  conselhos clínicos ou financeiros disfarçados de "alquimia mental". Em toda aula com
+  prática emocional, inclua um lembrete: se surgir sofrimento intenso, procure um
+  profissional de saúde mental (no Brasil, CVV 188, 24h). Convide o aluno a ir no seu
+  ritmo e a interromper qualquer prática que o desregule.
 
 ## 5. Como o Claude deve agir neste repositório
 

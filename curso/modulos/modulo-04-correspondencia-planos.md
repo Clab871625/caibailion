@@ -1,114 +1,66 @@
-# Módulo 04 — A Correspondência e os Planos da Existência
+# Módulo 04 — Correspondência: seus padrões que se repetem
 
 **Capítulos-fonte:** Cap. VIII (Os Planos de Correspondência)
 
-**Resumo do módulo:** O 2º princípio — *"como em cima, assim embaixo"* — é, ao mesmo
-tempo, uma afirmação sobre a estrutura da realidade e um **método de raciocínio**.
-Aqui você aprende a usar a analogia como ferramenta de descoberta e conhece os planos
-físico, mental e espiritual.
+**Foco terapêutico deste módulo:** "como em cima, assim embaixo" vira, no trabalho
+interior, uma ferramenta poderosa de autoconhecimento — **reconhecer padrões que se
+repetem** em você e usar o que já funcionou em uma área da vida para curar outra.
+
+> **Lembrete de cuidado:** olhar padrões antigos pode tocar memórias sensíveis. Vá
+> devagar; padrões profundos e dolorosos costumam pedir a companhia de um terapeuta.
 
 ---
 
-## Aula 04.1 — O Princípio da Correspondência
+## Aula 04.1 — O mesmo padrão em vários lugares
 
-**Objetivos de aprendizagem**
+**A ideia.** O princípio da Correspondência afirma que os mesmos padrões se repetem em
+planos diferentes. Na sua vida, isso quer dizer: o jeito como você reage a um chefe
+pode ecoar o jeito como reagia a um pai; a forma como cuida da casa pode espelhar como
+cuida de si. Reconhecer o padrão é o primeiro passo para transformá-lo.
 
-- Enunciar e aplicar o 2º princípio: *"O que está em cima é como o que está embaixo; o que está embaixo é como o que está em cima."*
-- Usar a correspondência para raciocinar do conhecido ao desconhecido — e conhecer seus limites.
+**Como isso aparece em você.** "Por que isso sempre acontece comigo?" Muitas vezes o
+"sempre" é um padrão interno que viaja de situação em situação.
 
-### O que o princípio afirma
+### 🔁 Prática 1 — Mapa de padrões (20 min)
+No diário, pense em uma dificuldade atual (ex.: dificuldade de dizer não). Depois
+pergunte:
+1. Onde **mais** esse mesmo padrão aparece na minha vida? (trabalho, família, amor, amizades)
+2. Qual é a "regra" invisível que se repete? (ex.: "preciso agradar para ser aceito")
+3. De onde eu aprendi essa regra?
 
-> "O que está em cima é como o que está embaixo; o que está embaixo é como o que está em cima." — O Caibalion
+Ver o padrão em vários "planos" ao mesmo tempo tira o peso do "é só comigo, nessa
+situação" e revela o tema de fundo.
 
-A Correspondência afirma que há **harmonia e concordância** entre os diversos planos
-da existência. Os mesmos padrões se repetem em escalas diferentes: o que acontece no
-grande se reflete no pequeno, e vice-versa. A realidade não é um amontoado de andares
-sem relação; é um edifício com uma mesma arquitetura em cada andar.
-
-### Correspondência como método
-
-O uso mais poderoso deste princípio é epistemológico: ele nos permite **raciocinar do
-conhecido ao desconhecido**. Quando não podemos observar diretamente algo (o muito
-grande, o muito pequeno, o interior de outra pessoa, o funcionamento da própria
-mente), procuramos um plano análogo que conhecemos melhor e usamos o padrão de lá como
-hipótese aqui. A obra diz que quem domina a correspondência "raciocina inteligentemente
-do conhecido ao desconhecido".
-
-### O limite (importante)
-
-Analogia **ilumina**, mas não **prova**. A correspondência gera boas hipóteses e boas
-imagens de compreensão; ela não dispensa a verificação. Um bom hermetista usa a
-analogia para *enxergar* e depois testa — não confunde "parece" com "é". Este cuidado
-distingue a sabedoria hermética da superstição.
-
-**Exemplos/analogias**
-
-- **Átomo e sistema solar:** durante muito tempo o átomo foi imaginado como um pequeno
-  sistema solar. Útil como imagem inicial — e imperfeito, como toda analogia.
-
-- **A empresa como organismo:** entender uma organização por analogia com um corpo
-  (circulação de informação = sangue, liderança = sistema nervoso) ajuda a diagnosticar
-  problemas — desde que não se leve a metáfora ao pé da letra.
-
-**Exercício / reflexão**
-
-1. Escolha algo que você entende **bem** e use-o, por analogia, para explicar algo que entende **pouco**.
-2. Em seguida, aponte **onde** essa analogia falha. (Achar o limite é parte do domínio do princípio.)
-
-**Pontos-chave**
-
-- Correspondência: os mesmos padrões se repetem nos vários planos.
-- É um método para ir do conhecido ao desconhecido por analogia.
-- Analogia ilumina, não prova — sempre encontre seu limite.
+**Registro.** Dê um nome carinhoso e sem julgamento ao seu padrão (ex.: "o pacificador").
 
 ---
 
-## Aula 04.2 — Os Planos da Existência
+## Aula 04.2 — Do conhecido ao desconhecido: transferir o que já cura
 
-**Objetivos de aprendizagem**
+**A ideia.** A Correspondência também é um método: raciocinar **do conhecido ao
+desconhecido**. Terapeuticamente — você já tem forças e soluções em *alguma* área da
+vida. Elas podem ser "transferidas" para onde você ainda sofre.
 
-- Descrever os planos físico, mental e espiritual e a ideia de escala/graus.
+**Como isso aparece em você.** Talvez você seja paciente e criativo no trabalho, mas
+duro consigo em casa. A paciência que você já tem é um recurso disponível.
 
-### Três grandes planos
+### 🌉 Prática 2 — A ponte de recursos (15 min)
+No diário:
+1. Cite uma área da vida em que você lida **bem** com desafios. O que exatamente você faz ali? (liste atitudes concretas)
+2. Cite uma área em que você **sofre**.
+3. Escolha **uma** atitude da área boa e escreva como aplicá-la, ainda esta semana, na área difícil.
 
-O Caibalion organiza a existência em três grandes planos — **físico**, **mental** e
-**espiritual** —, cada um com muitos sub-planos e graus. Não são lugares separados,
-mas **níveis** de uma mesma realidade, distinguidos pelo "grau de vibração" (tema do
-Módulo 5). O plano físico abrange da matéria mais densa às formas sutis de energia; o
-mental, os estados e processos da mente; o espiritual, os graus mais elevados do ser.
+### 🌿 Prática 3 — "Como trato o outro, como trato a mim" (10 min)
+Lembre de como você acolhe um amigo querido em sofrimento (as palavras, o tom). Escreva
+essas mesmas palavras endereçadas **a você**. Leia em voz alta. Essa correspondência
+entre o cuidado externo e o interno é uma das práticas mais curativas do curso.
 
-### A escala e a repetição de padrões
-
-A ideia central é a de **escala contínua**: entre um plano e outro não há um abismo,
-mas uma gradação. E, por causa da Correspondência, o mesmo padrão reaparece em cada
-faixa da escala — como as **oitavas musicais**, em que as mesmas sete notas se repetem
-em alturas diferentes. Conhecer um plano ajuda a intuir os outros, justamente porque a
-arquitetura se repete.
-
-**Exemplos/analogias**
-
-- **Oitavas musicais:** dó, ré, mi… reaparecem em cada oitava, mais graves ou mais
-  agudas. "Planos" do som — mesma estrutura, alturas diferentes.
-
-- **Do físico ao mental:** o padrão "ação e reação" aparece na mecânica (empurrão →
-  contra-empurrão) e também na vida mental (repressão → retorno do reprimido). Mesmo
-  padrão, planos diferentes — uma aplicação direta da correspondência.
-
-**Exercício / reflexão**
-
-1. Dê um exemplo de **um mesmo padrão** que você reconhece no plano físico **e** no plano mental.
-2. Por que pensar em "escala/graus" (e não em caixas separadas) muda a forma de entender a realidade?
-
-**Pontos-chave**
-
-- Três planos — físico, mental, espiritual — como níveis de uma escala contínua.
-- Distinguem-se por grau de vibração, não por serem mundos isolados.
-- A Correspondência faz o mesmo padrão reaparecer em cada plano.
+**Prática da semana.** Aplicar a "ponte de recursos" a uma situação real + toda vez que
+se criticar, repetir mentalmente as palavras da Prática 3.
 
 ---
 
-## Avaliação do módulo
-
-- **Dissertativa:** explique a Correspondência como método e por que a analogia precisa sempre ter seu limite reconhecido.
-- **Aplicação:** construa uma analogia própria entre dois planos e aponte onde ela ilumina e onde ela falha.
-- **Critérios:** correção conceitual, criatividade da analogia e lucidez sobre seus limites.
+## Fechamento do módulo
+- **Reflexão:** qual é o seu padrão de fundo mais recorrente? Onde ele mais te custa?
+- **Aplicação:** que recurso você transferiu de uma área para outra esta semana?
+- **Autoavaliação:** você conseguiu falar consigo com a gentileza que daria a um amigo?
