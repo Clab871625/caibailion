@@ -3,11 +3,6 @@
 --accent:#8a6d3b; --accent-2:#b8912f; --line:#e6ddcd; --code:#f0eadc;
 --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(60,45,20,.06);
 }
-@media (prefers-color-scheme:dark){:root{
---bg:#17140f; --panel:#1f1b15; --ink:#ece5d8; --muted:#a99f8c;
---accent:#d9b26a; --accent-2:#e7c680; --line:#332c22; --code:#221d16;
---shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
-}}
 :root[data-theme=dark]{
 --bg:#17140f; --panel:#1f1b15; --ink:#ece5d8; --muted:#a99f8c;
 --accent:#d9b26a; --accent-2:#e7c680; --line:#332c22; --code:#221d16;
@@ -377,12 +372,11 @@ os ciclos e a lei (ritmo+causalidade, M6) → a geração (gênero, M7) →
 síntese e prática (axiomas + projeto, M8).</p></section></div><div class="footer">Curso <em>O Caibalion</em> · as sete leis herméticas · obra em domínio público.</div></div></div><script>
 (function(){
 var root=document.documentElement, saved=localStorage.getItem('theme');
-if(saved) root.setAttribute('data-theme',saved);
+// padrão é claro; só fica escuro se o usuário já tiver escolhido escuro
+root.setAttribute('data-theme', saved==='dark' ? 'dark' : 'light');
 var tb=document.getElementById('themeBtn');
-function tlabel(){var d=root.getAttribute('data-theme');
-var dark=d?d==='dark':matchMedia('(prefers-color-scheme:dark)').matches; if(tb)tb.textContent=dark?'☀ Claro':'☾ Escuro';}
-tlabel(); if(tb)tb.onclick=function(){var c=root.getAttribute('data-theme');
-var dark=c?c==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+function tlabel(){var dark=root.getAttribute('data-theme')==='dark'; if(tb)tb.textContent=dark?'☀ Claro':'☾ Escuro';}
+tlabel(); if(tb)tb.onclick=function(){var dark=root.getAttribute('data-theme')==='dark';
 var n=dark?'light':'dark';root.setAttribute('data-theme',n);localStorage.setItem('theme',n);tlabel();};
 var sb=document.getElementById('sidebar'),mb=document.getElementById('menuBtn');
 if(mb)mb.onclick=function(){sb.classList.toggle('open');};
