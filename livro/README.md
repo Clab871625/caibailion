@@ -24,6 +24,7 @@ terminando em *"o Todo é Mente; o universo é..."*.
 
 - **Não é uma transcrição verbatim** da edição impressa. É fala convertida em texto
   por máquina: **sem pontuação** e com **erros de reconhecimento remanescentes**.
+
 - Serve muito bem como **base de estudo e referência de ideias**, mas para citações
   literais use os axiomas em `../curso/recursos/axiomas.md`.
 

@@ -7,17 +7,23 @@ forma integrada.
 
 - **Mentalismo (1)** é a base: se tudo é mente, então a mente é a alavanca de
   mudança — o que fundamenta toda a **transmutação mental**.
+
 - **Transmutação mental** = Mentalismo (1) + Polaridade (4) + Vibração (3):
   muda-se o *grau* (Vibração) ao longo de um *eixo de opostos* (Polaridade), porque
   tudo é, na raiz, *mental* (Mentalismo).
+
 - **Correspondência (2)** é o método: permite raciocinar do conhecido ao
   desconhecido e ver o mesmo padrão nos vários **planos**.
+
 - **Vibração (3)** e **Polaridade (4)** andam juntas: os polos são graus extremos de
   uma mesma escala de vibração.
+
 - **Ritmo (5)** explica a oscilação entre os polos da Polaridade (4); a
   **neutralização** é aplicar a vontade para não ser arrastado pelo pêndulo.
+
 - **Causa e Efeito (6)** convida a ser *causa* consciente — o que só faz sentido se
   a mente pode agir sobre os estados (Mentalismo + Transmutação).
+
 - **Gênero (7)** descreve *como* algo novo é gerado em qualquer plano; no plano
   mental (Gênero Mental) explica a criação de ideias e a autossugestão.
 

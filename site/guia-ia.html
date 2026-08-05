@@ -70,14 +70,20 @@ O repositório contém:</p>
 </code></pre>
 <h2 id="2-estado-atual-importante-para-nao-prometer-o-que-nao-existe">2. Estado atual (importante para não prometer o que não existe)</h2>
 <ul>
-<li><strong>Transcrição:</strong> existe em <code>livro/caibalion-sem-timestamps.md</code>. Foi obtida de uma
+<li>
+<p><strong>Transcrição:</strong> existe em <code>livro/caibalion-sem-timestamps.md</code>. Foi obtida de uma
   <strong>legenda automática de YouTube</strong>, com os timestamps removidos. <strong>Não é verbatim</strong>
   da edição impressa: não tem pontuação e contém erros de reconhecimento de voz
   residuais. Uma versão verbatim fiel depende de o usuário fornecer o PDF/texto da
-  tradução em domínio público.</li>
-<li><strong>Curso:</strong> por decisão do usuário, está no nível de <strong>estrutura</strong> (ementa +
-  esqueleto de módulos/aulas com objetivos, tópicos e exercícios). O conteúdo
-  detalhado de cada aula ainda <strong>não</strong> foi redigido por completo.</li>
+  tradução em domínio público.</p>
+</li>
+<li>
+<p><strong>Curso:</strong> <strong>conteúdo completo redigido</strong> — ementa + 8 módulos com aulas
+  desenvolvidas (explicação, exemplos, aplicação, exercícios, avaliação) e recursos.</p>
+</li>
+<li>
+<p><strong>Site HTML:</strong> gerado em <code>site/</code> a partir do Markdown; publicado na Vercel.</p>
+</li>
 </ul>
 <p>Ao falar do material, seja honesto sobre esses dois pontos.</p>
 <h2 id="3-o-livro-em-uma-pagina-mapa-de-referencia">3. O livro em uma página (mapa de referência)</h2>
@@ -190,38 +196,66 @@ ouvidos do Entendimento."</em></p>
 </blockquote>
 <h2 id="4-publico-tom-e-postura-pedagogica">4. Público, tom e postura pedagógica</h2>
 <ul>
-<li><strong>Público-alvo:</strong> iniciantes curiosos e estudantes de esoterismo/filosofia; sem
-  pré-requisitos. Linguagem clara, acessível, sem jargão desnecessário.</li>
-<li><strong>Tom:</strong> respeitoso com a tradição hermética, mas <strong>não dogmático</strong>. Apresente o
+<li>
+<p><strong>Público-alvo:</strong> iniciantes curiosos e estudantes de esoterismo/filosofia; sem
+  pré-requisitos. Linguagem clara, acessível, sem jargão desnecessário.</p>
+</li>
+<li>
+<p><strong>Tom:</strong> respeitoso com a tradição hermética, mas <strong>não dogmático</strong>. Apresente o
   Caibalion como um sistema de ideias a ser estudado e experimentado, não como
-  verdade científica ou religiosa a ser imposta.</li>
-<li><strong>Enquadramento honesto:</strong> o Caibalion (1908) é uma obra do movimento do Novo
+  verdade científica ou religiosa a ser imposta.</p>
+</li>
+<li>
+<p><strong>Enquadramento honesto:</strong> o Caibalion (1908) é uma obra do movimento do Novo
   Pensamento, <strong>não</strong> um texto do Egito antigo. Quando o tema surgir, contextualize
-  historicamente sem desmerecer o valor filosófico/prático da obra.</li>
-<li><strong>Segurança:</strong> nada de conselhos médicos, financeiros ou psicológicos disfarçados
+  historicamente sem desmerecer o valor filosófico/prático da obra.</p>
+</li>
+<li>
+<p><strong>Segurança:</strong> nada de conselhos médicos, financeiros ou psicológicos disfarçados
   de "alquimia mental". Ao tratar de transmutação mental, mantenha o registro de
-  autodesenvolvimento/reflexão, e recomende profissionais quando cabível.</li>
+  autodesenvolvimento/reflexão, e recomende profissionais quando cabível.</p>
+</li>
 </ul>
 <h2 id="5-como-o-claude-deve-agir-neste-repositorio">5. Como o Claude deve agir neste repositório</h2>
-<p><strong>Ao ensinar / responder o aluno:</strong>
-- Ancore explicações em um dos sete princípios e cite o axioma correspondente.
-- Use o método: (1) enunciar o princípio, (2) explicar em linguagem simples,
-  (3) dar um exemplo do cotidiano, (4) propor um exercício ou pergunta reflexiva.
-- Prefira analogias concretas (o pêndulo, o termômetro quente/frio, as oitavas
-  musicais) — são as próprias imagens do livro.
-- Distinga sempre "o que o livro afirma" de "interpretações e usos posteriores".</p>
-<p><strong>Ao produzir/editar material do curso:</strong>
-- Escreva em <strong>português (pt-BR)</strong>, em Markdown.
-- Respeite a estrutura de pastas acima; um arquivo por módulo em <code>curso/modulos/</code>.
-- Cada aula deve conter: objetivos de aprendizagem, tópicos, conceitos-chave,
-  exemplo(s), exercício(s)/reflexão e critérios de avaliação.
-- Ao citar o texto-fonte, lembre que a transcrição atual é imperfeita — cite ideias
+<p><strong>Ao ensinar / responder o aluno:</strong></p>
+<ul>
+<li>Ancore explicações em um dos sete princípios e cite o axioma correspondente.</li>
+<li>
+<p>Use o método: (1) enunciar o princípio, (2) explicar em linguagem simples,
+  (3) dar um exemplo do cotidiano, (4) propor um exercício ou pergunta reflexiva.</p>
+</li>
+<li>
+<p>Prefira analogias concretas (o pêndulo, o termômetro quente/frio, as oitavas
+  musicais) — são as próprias imagens do livro.</p>
+</li>
+<li>
+<p>Distinga sempre "o que o livro afirma" de "interpretações e usos posteriores".</p>
+</li>
+</ul>
+<p><strong>Ao produzir/editar material do curso:</strong></p>
+<ul>
+<li>Escreva em <strong>português (pt-BR)</strong>, em Markdown.</li>
+<li>Respeite a estrutura de pastas acima; um arquivo por módulo em <code>curso/modulos/</code>.</li>
+<li>
+<p>Cada aula deve conter: objetivos de aprendizagem, tópicos, conceitos-chave,
+  exemplo(s), exercício(s)/reflexão e critérios de avaliação.</p>
+</li>
+<li>
+<p>Ao citar o texto-fonte, lembre que a transcrição atual é imperfeita — cite ideias
   e axiomas (que constam da seção 3), não trechos longos como se fossem verbatim.</p>
-<p><strong>Ao lidar com a transcrição:</strong>
-- Nunca apague <code>livro/caibalion-sem-timestamps.md</code>.
-- Se o usuário fornecer um PDF/texto fiel, gere uma nova transcrição verbatim em
-  arquivo separado (ex.: <code>livro/caibalion-verbatim.md</code>), sem sobrescrever a atual.
-- Toda limpeza/edição do texto deve ser documentada (o que foi alterado e por quê).</p>
+</li>
+</ul>
+<p><strong>Ao lidar com a transcrição:</strong></p>
+<ul>
+<li>Nunca apague <code>livro/caibalion-sem-timestamps.md</code>.</li>
+<li>
+<p>Se o usuário fornecer um PDF/texto fiel, gere uma nova transcrição verbatim em
+  arquivo separado (ex.: <code>livro/caibalion-verbatim.md</code>), sem sobrescrever a atual.</p>
+</li>
+<li>
+<p>Toda limpeza/edição do texto deve ser documentada (o que foi alterado e por quê).</p>
+</li>
+</ul>
 <h2 id="6-convencoes">6. Convenções</h2>
 <ul>
 <li>Idioma: pt-BR. Título do livro: <em>O Caibalion</em>.</li>

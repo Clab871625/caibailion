@@ -35,14 +35,18 @@ caibailion/
 
 - **Transcrição:** pronta (timestamps removidos). É legenda automática — sem
   pontuação e com erros residuais de reconhecimento de voz. Ver `livro/README.md`.
-- **Curso:** no nível de **estrutura** (ementa + esqueleto de 8 módulos com objetivos,
-  tópicos, conceitos, exemplos e exercícios). O conteúdo completo de cada aula pode
-  ser desenvolvido a partir dos esqueletos.
+
+- **Curso:** **conteúdo completo** — ementa + 8 módulos com aulas desenvolvidas
+  (explicações, exemplos/analogias, aplicação prática, exercícios e avaliação) +
+  recursos (axiomas, glossário, mapa de correspondências).
+
+- **Site HTML:** em `site/` (18 páginas navegáveis). Publicável na Vercel/Netlify/GitHub Pages.
 
 ## Próximos passos sugeridos
 
 1. Fornecer o PDF/texto da tradução em domínio público (Rosabis Camaysar, 1920) para
    gerar uma transcrição **verbatim** fiel.
+
 2. Desenvolver o conteúdo completo de cada aula a partir dos esqueletos.
 3. Escolher o formato de entrega (autoinstrucional, turma online, presencial).
 
@@ -50,4 +54,5 @@ caibailion/
 
 - *O Caibalion* (Três Iniciados, 1908) e a tradução de Rosabis Camaysar (1920) estão
   em **domínio público**.
+
 - O material do curso (ementa, módulos, recursos) é produção original deste repositório.

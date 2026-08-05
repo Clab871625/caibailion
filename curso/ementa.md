@@ -46,6 +46,7 @@ Cada módulo tem seu arquivo em `curso/modulos/`.
 ## Metodologia
 
 Para cada princípio, o roteiro didático é:
+
 1. **Enunciar** o princípio e seu axioma.
 2. **Explicar** em linguagem simples.
 3. **Ilustrar** com um exemplo do cotidiano/natureza (as próprias imagens do livro).
@@ -57,6 +58,7 @@ Para cada princípio, o roteiro didático é:
 - **Somativa por módulo:** 1 questão dissertativa + 1 aplicação prática.
 - **Projeto final (Módulo 08):** o aluno escolhe uma situação da própria vida e a
   analisa à luz dos sete princípios, propondo uma "transmutação" concreta.
+
 - **Critérios:** compreensão dos conceitos, uso correto dos axiomas, qualidade dos
   exemplos e coerência da aplicação.
 
@@ -71,5 +73,6 @@ Para cada princípio, o roteiro didático é:
 
 - O *Caibalion* é obra de 1908 (Novo Pensamento); a atribuição ao Egito antigo é
   parte da narrativa da obra, não fato histórico. O curso trata disso abertamente.
+
 - Práticas de "transmutação mental" têm finalidade reflexiva/educacional e **não
   substituem** acompanhamento médico, psicológico ou financeiro profissional.

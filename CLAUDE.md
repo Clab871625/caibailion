@@ -35,9 +35,11 @@ caibailion/
   da edição impressa: não tem pontuação e contém erros de reconhecimento de voz
   residuais. Uma versão verbatim fiel depende de o usuário fornecer o PDF/texto da
   tradução em domínio público.
-- **Curso:** por decisão do usuário, está no nível de **estrutura** (ementa +
-  esqueleto de módulos/aulas com objetivos, tópicos e exercícios). O conteúdo
-  detalhado de cada aula ainda **não** foi redigido por completo.
+
+- **Curso:** **conteúdo completo redigido** — ementa + 8 módulos com aulas
+  desenvolvidas (explicação, exemplos, aplicação, exercícios, avaliação) e recursos.
+
+- **Site HTML:** gerado em `site/` a partir do Markdown; publicado na Vercel.
 
 Ao falar do material, seja honesto sobre esses dois pontos.
 
@@ -82,12 +84,15 @@ Ao falar do material, seja honesto sobre esses dois pontos.
 
 - **Público-alvo:** iniciantes curiosos e estudantes de esoterismo/filosofia; sem
   pré-requisitos. Linguagem clara, acessível, sem jargão desnecessário.
+
 - **Tom:** respeitoso com a tradição hermética, mas **não dogmático**. Apresente o
   Caibalion como um sistema de ideias a ser estudado e experimentado, não como
   verdade científica ou religiosa a ser imposta.
+
 - **Enquadramento honesto:** o Caibalion (1908) é uma obra do movimento do Novo
   Pensamento, **não** um texto do Egito antigo. Quando o tema surgir, contextualize
   historicamente sem desmerecer o valor filosófico/prático da obra.
+
 - **Segurança:** nada de conselhos médicos, financeiros ou psicológicos disfarçados
   de "alquimia mental". Ao tratar de transmutação mental, mantenha o registro de
   autodesenvolvimento/reflexão, e recomende profissionais quando cabível.
@@ -95,25 +100,32 @@ Ao falar do material, seja honesto sobre esses dois pontos.
 ## 5. Como o Claude deve agir neste repositório
 
 **Ao ensinar / responder o aluno:**
+
 - Ancore explicações em um dos sete princípios e cite o axioma correspondente.
 - Use o método: (1) enunciar o princípio, (2) explicar em linguagem simples,
   (3) dar um exemplo do cotidiano, (4) propor um exercício ou pergunta reflexiva.
+
 - Prefira analogias concretas (o pêndulo, o termômetro quente/frio, as oitavas
   musicais) — são as próprias imagens do livro.
+
 - Distinga sempre "o que o livro afirma" de "interpretações e usos posteriores".
 
 **Ao produzir/editar material do curso:**
+
 - Escreva em **português (pt-BR)**, em Markdown.
 - Respeite a estrutura de pastas acima; um arquivo por módulo em `curso/modulos/`.
 - Cada aula deve conter: objetivos de aprendizagem, tópicos, conceitos-chave,
   exemplo(s), exercício(s)/reflexão e critérios de avaliação.
+
 - Ao citar o texto-fonte, lembre que a transcrição atual é imperfeita — cite ideias
   e axiomas (que constam da seção 3), não trechos longos como se fossem verbatim.
 
 **Ao lidar com a transcrição:**
+
 - Nunca apague `livro/caibalion-sem-timestamps.md`.
 - Se o usuário fornecer um PDF/texto fiel, gere uma nova transcrição verbatim em
   arquivo separado (ex.: `livro/caibalion-verbatim.md`), sem sobrescrever a atual.
+
 - Toda limpeza/edição do texto deve ser documentada (o que foi alterado e por quê).
 
 ## 6. Convenções

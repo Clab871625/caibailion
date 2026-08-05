@@ -19,6 +19,7 @@ Orientações para conduzir o curso "O Caibalion: As Sete Leis Herméticas".
 2. **Explicar** em linguagem simples, sem jargão.
 3. **Ilustrar** com um exemplo do cotidiano (use as analogias do próprio livro:
    pêndulo, termômetro, oitavas musicais, marés).
+
 4. **Exercitar**: aplicar a uma situação real; abrir para partilha.
 
 ## Boas práticas
@@ -26,9 +27,11 @@ Orientações para conduzir o curso "O Caibalion: As Sete Leis Herméticas".
 - **Não dogmatize.** Apresente como sistema de ideias a experimentar, não verdade absoluta.
 - **Contextualize a história.** Deixe claro que o Caibalion é de 1908 (Novo Pensamento)
   e que a moldura egípcia/Hermes é narrativa, não fato histórico.
+
 - **Cuidado com promessas.** "Transmutação mental" é prática reflexiva de
   autodesenvolvimento — não é cura, não é garantia de resultados materiais, não
   substitui ajuda médica, psicológica ou financeira. Reforce isso quando necessário.
+
 - **Acolha o ceticismo.** Perguntas críticas enriquecem; trate-as com respeito.
 
 ## Avaliação
@@ -40,6 +43,7 @@ Orientações para conduzir o curso "O Caibalion: As Sete Leis Herméticas".
 ## Usando a IA (Claude) como coautor/tutor
 
 O `CLAUDE.md` configura o assistente para:
+
 - responder dúvidas ancorando cada explicação em um princípio + axioma;
 - ajudar a desenvolver o conteúdo completo das aulas a partir dos esqueletos;
 - manter o enquadramento honesto e o uso responsável.
