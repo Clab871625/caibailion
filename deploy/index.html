@@ -1,0 +1,1811 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>O Caibalion — Curso &amp; Transcrição</title>
+<meta name="description" content="Curso e transcrição de O Caibalion: as sete leis herméticas, em português.">
+<style>:root{
+  --bg:#f7f4ee; --panel:#fffdf9; --ink:#2b2620; --muted:#6f675b;
+  --accent:#8a6d3b; --accent-2:#b8912f; --line:#e6ddcd; --code:#f0eadc;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(60,45,20,.06);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#17140f; --panel:#1f1b15; --ink:#ece5d8; --muted:#a99f8c;
+  --accent:#d9b26a; --accent-2:#e7c680; --line:#332c22; --code:#221d16;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+}}
+:root[data-theme=dark]{
+  --bg:#17140f; --panel:#1f1b15; --ink:#ece5d8; --muted:#a99f8c;
+  --accent:#d9b26a; --accent-2:#e7c680; --line:#332c22; --code:#221d16;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+}
+:root[data-theme=light]{
+  --bg:#f7f4ee; --panel:#fffdf9; --ink:#2b2620; --muted:#6f675b;
+  --accent:#8a6d3b; --accent-2:#b8912f; --line:#e6ddcd; --code:#f0eadc;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(60,45,20,.06);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--accent-2);text-decoration:underline}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:280px;flex:0 0 280px;background:var(--panel);border-right:1px solid var(--line);
+  padding:22px 18px;position:sticky;top:0;height:100vh;overflow-y:auto}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.brand .glyph{font-size:30px;color:var(--accent)}
+.brand small{display:block;color:var(--muted);font-size:12px}
+.nav-group{margin-bottom:16px}
+.nav-group-title{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px 6px}
+.nav-group ul{list-style:none;margin:0;padding:0}
+.nav-group li a{display:block;padding:7px 10px;border-radius:8px;color:var(--ink);font-size:14.5px}
+.nav-group li a:hover{background:var(--bg);text-decoration:none}
+.nav-group li a.active{background:var(--accent);color:#fff;font-weight:600}
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:12px 20px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:8px;color:var(--ink);
+  font-size:20px;padding:4px 12px;cursor:pointer}
+.theme-btn{background:none;border:1px solid var(--line);border-radius:8px;color:var(--ink);
+  padding:6px 12px;cursor:pointer;font-size:13px}
+.content{max-width:820px;width:100%;margin:0 auto;padding:38px 26px 90px}
+.content h1{font-family:Georgia,"Times New Roman",serif;font-size:2rem;line-height:1.2;margin:.2em 0 .5em}
+.content h2{font-family:Georgia,serif;margin-top:1.8em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+.content h3{margin-top:1.4em}
+.content p,.content li{font-size:16.5px}
+.content blockquote{border-left:4px solid var(--accent);background:var(--panel);
+  margin:1.2em 0;padding:.6em 1.1em;border-radius:0 10px 10px 0;color:var(--muted)}
+.content table{border-collapse:collapse;width:100%;margin:1.2em 0;font-size:15px;display:block;overflow-x:auto}
+.content th,.content td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.content th{background:var(--panel)}
+.content code{background:var(--code);padding:.12em .4em;border-radius:5px;font-size:.9em}
+.content pre{background:var(--code);padding:14px 16px;border-radius:10px;overflow-x:auto;border:1px solid var(--line)}
+.content pre code{background:none;padding:0}
+.content hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding:18px 26px;text-align:center}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+.pager a{padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);max-width:48%}
+.pager a small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em}
+/* landing */
+.hero{text-align:center;padding:30px 0 10px}
+.hero .glyph{font-size:64px;color:var(--accent)}
+.hero h1{font-size:2.6rem;margin:.1em 0}
+.hero p.sub{color:var(--muted);font-size:1.15rem;max-width:640px;margin:.4em auto 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:34px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow);display:block;color:var(--ink)}
+.card:hover{text-decoration:none;transform:translateY(-2px);transition:transform .15s;border-color:var(--accent)}
+.card h3{margin:.1em 0 .3em}
+.card p{color:var(--muted);font-size:14.5px;margin:0}
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
+.principle{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.principle b{color:var(--accent)}
+.note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent-2);
+  border-radius:0 10px 10px 0;padding:14px 16px;margin:22px 0;font-size:14.5px;color:var(--muted)}
+@media(max-width:860px){
+  .sidebar{position:fixed;left:0;top:0;transform:translateX(-100%);transition:transform .25s;z-index:20;box-shadow:var(--shadow)}
+  .sidebar.open{transform:translateX(0)}
+  .menu-btn{display:inline-block}
+  .content{padding:26px 18px 80px}
+  .hero h1{font-size:2rem}
+}
+
+/* página única */
+.page[hidden]{display:none}
+.card.navlink{color:var(--ink)}
+.card.navlink:hover{text-decoration:none}
+.content{scroll-margin-top:70px}
+</style>
+</head><body>
+<div class="layout">
+<nav class="sidebar" id="sidebar">
+<div class="brand"><span class="glyph">☿</span><div><strong>O Caibalion</strong><small>Curso &amp; Transcrição</small></div></div>
+<div class="nav-group"><span class="nav-group-title">Início</span><ul><li><a href="#inicio" class="navlink active" data-id="inicio">Início</a></li></ul></div>
+<div class="nav-group"><span class="nav-group-title">Sobre</span><ul>
+<li><a href="#sobre" class="navlink" data-id="sobre">Visão geral</a></li>
+<li><a href="#guia-ia" class="navlink" data-id="guia-ia">Guia do Tutor (CLAUDE.md)</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">O Livro</span><ul>
+<li><a href="#livro" class="navlink" data-id="livro">Transcrição do Caibalion</a></li>
+<li><a href="#fonte" class="navlink" data-id="fonte">Sobre a transcrição</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Curso</span><ul>
+<li><a href="#ementa" class="navlink" data-id="ementa">Ementa do curso</a></li>
+<li><a href="#facilitador" class="navlink" data-id="facilitador">Guia do facilitador</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Módulos</span><ul>
+<li><a href="#modulo-01" class="navlink" data-id="modulo-01">M01 · Fundamentos</a></li>
+<li><a href="#modulo-02" class="navlink" data-id="modulo-02">M02 · Mentalismo e Transmutação</a></li>
+<li><a href="#modulo-03" class="navlink" data-id="modulo-03">M03 · O Todo e o Universo Mental</a></li>
+<li><a href="#modulo-04" class="navlink" data-id="modulo-04">M04 · Correspondência e Planos</a></li>
+<li><a href="#modulo-05" class="navlink" data-id="modulo-05">M05 · Vibração e Polaridade</a></li>
+<li><a href="#modulo-06" class="navlink" data-id="modulo-06">M06 · Ritmo e Causalidade</a></li>
+<li><a href="#modulo-07" class="navlink" data-id="modulo-07">M07 · Gênero e Gênero Mental</a></li>
+<li><a href="#modulo-08" class="navlink" data-id="modulo-08">M08 · Axiomas e Projeto Final</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Recursos</span><ul>
+<li><a href="#axiomas" class="navlink" data-id="axiomas">Os 7 Axiomas</a></li>
+<li><a href="#glossario" class="navlink" data-id="glossario">Glossário</a></li>
+<li><a href="#mapa" class="navlink" data-id="mapa">Mapa de correspondências</a></li>
+</ul></div>
+</nav>
+<div class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <div id="crumb" style="font-weight:600">Início</div>
+    <button class="theme-btn" id="themeBtn">Tema</button>
+  </div>
+  <div class="content"><section id="inicio" class="page">
+  <div class="hero"><div class="glyph">☿</div><h1>O Caibalion</h1>
+  <p class="sub">Um estudo da filosofia hermética do antigo Egito e da Grécia — transcrição e curso completo em português.</p></div>
+  <blockquote>"Os lábios da sabedoria permanecem fechados, exceto para os ouvidos do Entendimento."</blockquote>
+  <div class="cards"><a class="card navlink" href="#ementa" data-id="ementa"><h3>🎓 Ementa</h3><p>O plano do curso em 8 módulos e a avaliação.</p></a>
+<a class="card navlink" href="#modulo-01" data-id="modulo-01"><h3>🧭 Módulos</h3><p>Os 8 módulos, capítulo a capítulo, com aulas e exercícios.</p></a>
+<a class="card navlink" href="#livro" data-id="livro"><h3>📜 Transcrição</h3><p>O texto do audiolivro sem os timestamps.</p></a>
+<a class="card navlink" href="#axiomas" data-id="axiomas"><h3>🗝️ Axiomas</h3><p>Os sete princípios e seus axiomas.</p></a>
+<a class="card navlink" href="#glossario" data-id="glossario"><h3>📖 Glossário</h3><p>Termos herméticos explicados.</p></a>
+<a class="card navlink" href="#guia-ia" data-id="guia-ia"><h3>🤖 Guia do Tutor</h3><p>O CLAUDE.md que configura a IA como tutor.</p></a></div>
+  <h2>Os Sete Princípios</h2><div class="principles"><div class="principle"><b>1. Mentalismo</b><br><small>O Todo é Mente</small></div>
+<div class="principle"><b>2. Correspondência</b><br><small>Como em cima, assim embaixo</small></div>
+<div class="principle"><b>3. Vibração</b><br><small>Tudo se move, tudo vibra</small></div>
+<div class="principle"><b>4. Polaridade</b><br><small>Tudo é duplo; os opostos se tocam</small></div>
+<div class="principle"><b>5. Ritmo</b><br><small>Tudo flui e reflui; o ritmo compensa</small></div>
+<div class="principle"><b>6. Causa e Efeito</b><br><small>Nada escapa à Lei</small></div>
+<div class="principle"><b>7. Gênero</b><br><small>O gênero está em tudo</small></div></div>
+</section>
+<section id="sobre" class="page" hidden><h1>O Caibalion — Curso e Transcrição</h1>
+<p>Repositório com (1) a <strong>transcrição</strong> do audiolivro <em>O Caibalion</em> (legenda de YouTube,
+com os timestamps removidos) e (2) a <strong>estrutura de um curso</strong> em português sobre a
+obra e a filosofia hermética.</p>
+<h2>Estrutura</h2>
+<pre><code>caibailion/
+├── CLAUDE.md                         # guia do tutor/IA + regras do projeto
+├── README.md                         # este arquivo
+├── livro/
+│   ├── README.md                     # proveniência e avisos de fidelidade
+│   └── caibalion-sem-timestamps.md   # transcrição sem os timestamps do YouTube
+└── curso/
+    ├── ementa.md                     # ementa / plano geral
+    ├── 00-guia-do-facilitador.md     # como conduzir o curso
+    ├── modulos/                      # 8 módulos (esqueleto de aulas)
+    │   ├── modulo-01-fundamentos.md
+    │   ├── modulo-02-mentalismo-transmutacao.md
+    │   ├── modulo-03-o-todo-universo-mental.md
+    │   ├── modulo-04-correspondencia-planos.md
+    │   ├── modulo-05-vibracao-polaridade.md
+    │   ├── modulo-06-ritmo-causalidade.md
+    │   ├── modulo-07-genero-genero-mental.md
+    │   └── modulo-08-axiomas-aplicacao.md
+    └── recursos/
+        ├── axiomas.md                # os 7 axiomas
+        ├── glossario.md              # termos herméticos
+        └── mapa-correspondencias.md  # como os princípios se conectam
+</code></pre>
+<h2>Estado atual</h2>
+<ul>
+<li>
+<p><strong>Transcrição:</strong> pronta (timestamps removidos). É legenda automática — sem
+  pontuação e com erros residuais de reconhecimento de voz. Ver <code>livro/README.md</code>.</p>
+</li>
+<li>
+<p><strong>Curso:</strong> <strong>conteúdo completo</strong> — ementa + 8 módulos com aulas desenvolvidas
+  (explicações, exemplos/analogias, aplicação prática, exercícios e avaliação) +
+  recursos (axiomas, glossário, mapa de correspondências).</p>
+</li>
+<li>
+<p><strong>Site HTML:</strong> em <code>site/</code> (18 páginas navegáveis). Publicável na Vercel/Netlify/GitHub Pages.</p>
+</li>
+</ul>
+<h2>Próximos passos sugeridos</h2>
+<ol>
+<li>
+<p>Fornecer o PDF/texto da tradução em domínio público (Rosabis Camaysar, 1920) para
+   gerar uma transcrição <strong>verbatim</strong> fiel.</p>
+</li>
+<li>
+<p>Desenvolver o conteúdo completo de cada aula a partir dos esqueletos.</p>
+</li>
+<li>Escolher o formato de entrega (autoinstrucional, turma online, presencial).</li>
+</ol>
+<h2>Licença e créditos</h2>
+<ul>
+<li>
+<p><em>O Caibalion</em> (Três Iniciados, 1908) e a tradução de Rosabis Camaysar (1920) estão
+  em <strong>domínio público</strong>.</p>
+</li>
+<li>
+<p>O material do curso (ementa, módulos, recursos) é produção original deste repositório.</p>
+</li>
+</ul></section>
+<section id="guia-ia" class="page" hidden><h1>CLAUDE.md — Curso "O Caibalion: As Sete Leis Herméticas"</h1>
+<p>Este arquivo orienta o Claude (e qualquer assistente de IA) a atuar como <strong>tutor,
+facilitador e coautor</strong> de um curso baseado no livro <em>O Caibalion</em> (Três Iniciados,
+1908; tradução clássica de Rosabis Camaysar, 1920 — domínio público).</p>
+<p>Leia este arquivo por inteiro antes de responder qualquer pedido relativo a este
+repositório.</p>
+<hr />
+<h2>1. O que é este projeto</h2>
+<p>Um curso completo, em português, sobre o <em>Caibalion</em> e a filosofia hermética.
+O repositório contém:</p>
+<pre><code>caibailion/
+├── CLAUDE.md                     # este arquivo (guia do tutor + regras)
+├── README.md                     # visão geral do repositório
+├── livro/                        # o texto-fonte
+│   ├── README.md                 # proveniência e estado do material
+│   └── caibalion-sem-timestamps.md   # transcrição (legenda YouTube) sem os timestamps
+└── curso/                        # o curso
+    ├── ementa.md                 # ementa / plano geral (módulos, cargas, avaliações)
+    ├── 00-guia-do-facilitador.md # como conduzir o curso
+    ├── modulos/                  # um arquivo por módulo (esqueleto de aulas)
+    └── recursos/                 # glossário, axiomas, mapa de correspondências
+</code></pre>
+<h2>2. Estado atual (importante para não prometer o que não existe)</h2>
+<ul>
+<li>
+<p><strong>Transcrição:</strong> existe em <code>livro/caibalion-sem-timestamps.md</code>. Foi obtida de uma
+  <strong>legenda automática de YouTube</strong>, com os timestamps removidos. <strong>Não é verbatim</strong>
+  da edição impressa: não tem pontuação e contém erros de reconhecimento de voz
+  residuais. Uma versão verbatim fiel depende de o usuário fornecer o PDF/texto da
+  tradução em domínio público.</p>
+</li>
+<li>
+<p><strong>Curso:</strong> <strong>conteúdo completo redigido</strong> — ementa + 8 módulos com aulas
+  desenvolvidas (explicação, exemplos, aplicação, exercícios, avaliação) e recursos.</p>
+</li>
+<li>
+<p><strong>Site HTML:</strong> gerado em <code>site/</code> a partir do Markdown; publicado na Vercel.</p>
+</li>
+</ul>
+<p>Ao falar do material, seja honesto sobre esses dois pontos.</p>
+<h2>3. O livro em uma página (mapa de referência)</h2>
+<p><em>O Caibalion</em> organiza a filosofia hermética atribuída a Hermes Trismegisto em
+<strong>Sete Princípios</strong>. Estrutura da obra (15 capítulos + introdução):</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Capítulo</th>
+<th>Núcleo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>Introdução</td>
+<td>Origem hermética, "os lábios da sabedoria"</td>
+</tr>
+<tr>
+<td>I</td>
+<td>A Filosofia Hermética</td>
+<td>Hermes, transmissão do conhecimento oculto</td>
+</tr>
+<tr>
+<td>II</td>
+<td>Os Sete Princípios Herméticos</td>
+<td>Visão geral dos 7 princípios</td>
+</tr>
+<tr>
+<td>III</td>
+<td>A Transmutação Mental</td>
+<td>A "alquimia mental"; mudar estados mentais</td>
+</tr>
+<tr>
+<td>IV</td>
+<td>O Todo</td>
+<td>O substrato absoluto e incognoscível</td>
+</tr>
+<tr>
+<td>V</td>
+<td>O Universo Mental</td>
+<td>O universo como criação mental do Todo</td>
+</tr>
+<tr>
+<td>VI</td>
+<td>O Paradoxo Divino</td>
+<td>Como conciliar o real e o ilusório</td>
+</tr>
+<tr>
+<td>VII</td>
+<td>"O Todo" em Tudo</td>
+<td>Imanência: o Todo em cada coisa</td>
+</tr>
+<tr>
+<td>VIII</td>
+<td>Os Planos de Correspondência</td>
+<td>Físico, mental e espiritual</td>
+</tr>
+<tr>
+<td>IX</td>
+<td>A Vibração</td>
+<td>Tudo se move, tudo vibra</td>
+</tr>
+<tr>
+<td>X</td>
+<td>A Polaridade</td>
+<td>Tudo é duplo; opostos são idênticos em natureza</td>
+</tr>
+<tr>
+<td>XI</td>
+<td>O Ritmo</td>
+<td>Tudo flui e reflui; o pêndulo; a compensação</td>
+</tr>
+<tr>
+<td>XII</td>
+<td>A Causalidade</td>
+<td>Toda causa tem efeito; o acaso é lei não reconhecida</td>
+</tr>
+<tr>
+<td>XIII</td>
+<td>O Gênero</td>
+<td>Masculino e feminino em tudo</td>
+</tr>
+<tr>
+<td>XIV</td>
+<td>O Gênero Mental</td>
+<td>O "Eu" e o "Mim"; a mente consciente/subconsciente</td>
+</tr>
+<tr>
+<td>XV</td>
+<td>Axiomas Herméticos</td>
+<td>Máximas práticas de aplicação</td>
+</tr>
+</tbody>
+</table>
+<h3>Os Sete Princípios (âncoras do curso)</h3>
+<ol>
+<li><strong>Mentalismo</strong> — <em>"O Todo é Mente; o Universo é Mental."</em></li>
+<li><strong>Correspondência</strong> — <em>"O que está em cima é como o que está embaixo; o que está embaixo é como o que está em cima."</em></li>
+<li><strong>Vibração</strong> — <em>"Nada está parado; tudo se move; tudo vibra."</em></li>
+<li><strong>Polaridade</strong> — <em>"Tudo é duplo; tudo tem polos; tudo tem o seu oposto; os opostos são idênticos em natureza, mas diferentes em grau; os extremos se tocam; todas as verdades são meias-verdades; todos os paradoxos podem reconciliar-se."</em></li>
+<li><strong>Ritmo</strong> — <em>"Tudo tem fluxo e refluxo; tudo tem suas marés; tudo sobe e desce; o ritmo compensa."</em></li>
+<li><strong>Causa e Efeito (Causalidade)</strong> — <em>"Toda causa tem seu efeito; todo efeito tem sua causa; tudo acontece de acordo com a Lei; o acaso não é senão um nome para uma lei não reconhecida; há muitos planos de causalidade, mas nada escapa à Lei."</em></li>
+<li><strong>Gênero</strong> — <em>"O gênero está em tudo; tudo tem seus princípios masculino e feminino; o gênero se manifesta em todos os planos."</em></li>
+</ol>
+<blockquote>
+<p>Axioma de abertura: <em>"Os lábios da sabedoria permanecem fechados, exceto para os
+ouvidos do Entendimento."</em></p>
+</blockquote>
+<h2>4. Público, tom e postura pedagógica</h2>
+<ul>
+<li>
+<p><strong>Público-alvo:</strong> iniciantes curiosos e estudantes de esoterismo/filosofia; sem
+  pré-requisitos. Linguagem clara, acessível, sem jargão desnecessário.</p>
+</li>
+<li>
+<p><strong>Tom:</strong> respeitoso com a tradição hermética, mas <strong>não dogmático</strong>. Apresente o
+  Caibalion como um sistema de ideias a ser estudado e experimentado, não como
+  verdade científica ou religiosa a ser imposta.</p>
+</li>
+<li>
+<p><strong>Enquadramento honesto:</strong> o Caibalion (1908) é uma obra do movimento do Novo
+  Pensamento, <strong>não</strong> um texto do Egito antigo. Quando o tema surgir, contextualize
+  historicamente sem desmerecer o valor filosófico/prático da obra.</p>
+</li>
+<li>
+<p><strong>Segurança:</strong> nada de conselhos médicos, financeiros ou psicológicos disfarçados
+  de "alquimia mental". Ao tratar de transmutação mental, mantenha o registro de
+  autodesenvolvimento/reflexão, e recomende profissionais quando cabível.</p>
+</li>
+</ul>
+<h2>5. Como o Claude deve agir neste repositório</h2>
+<p><strong>Ao ensinar / responder o aluno:</strong></p>
+<ul>
+<li>Ancore explicações em um dos sete princípios e cite o axioma correspondente.</li>
+<li>
+<p>Use o método: (1) enunciar o princípio, (2) explicar em linguagem simples,
+  (3) dar um exemplo do cotidiano, (4) propor um exercício ou pergunta reflexiva.</p>
+</li>
+<li>
+<p>Prefira analogias concretas (o pêndulo, o termômetro quente/frio, as oitavas
+  musicais) — são as próprias imagens do livro.</p>
+</li>
+<li>
+<p>Distinga sempre "o que o livro afirma" de "interpretações e usos posteriores".</p>
+</li>
+</ul>
+<p><strong>Ao produzir/editar material do curso:</strong></p>
+<ul>
+<li>Escreva em <strong>português (pt-BR)</strong>, em Markdown.</li>
+<li>Respeite a estrutura de pastas acima; um arquivo por módulo em <code>curso/modulos/</code>.</li>
+<li>
+<p>Cada aula deve conter: objetivos de aprendizagem, tópicos, conceitos-chave,
+  exemplo(s), exercício(s)/reflexão e critérios de avaliação.</p>
+</li>
+<li>
+<p>Ao citar o texto-fonte, lembre que a transcrição atual é imperfeita — cite ideias
+  e axiomas (que constam da seção 3), não trechos longos como se fossem verbatim.</p>
+</li>
+</ul>
+<p><strong>Ao lidar com a transcrição:</strong></p>
+<ul>
+<li>Nunca apague <code>livro/caibalion-sem-timestamps.md</code>.</li>
+<li>
+<p>Se o usuário fornecer um PDF/texto fiel, gere uma nova transcrição verbatim em
+  arquivo separado (ex.: <code>livro/caibalion-verbatim.md</code>), sem sobrescrever a atual.</p>
+</li>
+<li>
+<p>Toda limpeza/edição do texto deve ser documentada (o que foi alterado e por quê).</p>
+</li>
+</ul>
+<h2>6. Convenções</h2>
+<ul>
+<li>Idioma: pt-BR. Título do livro: <em>O Caibalion</em>.</li>
+<li>Termos: "hermetismo", "hermetista", "Hermes Trismegisto", "transmutação mental".</li>
+<li>Numeração de módulos com dois dígitos (<code>modulo-01-...</code>).</li>
+<li>Datas e créditos: obra e tradução em <strong>domínio público</strong>; material do curso é
+  produção original deste repositório.</li>
+</ul>
+<h2>7. Fora de escopo (não fazer sem pedido explícito)</h2>
+<ul>
+<li>Não reescrever o livro inteiro "de memória" e chamar de transcrição fiel.</li>
+<li>Não criar PR, publicar ou enviar nada para fora sem o usuário pedir.</li>
+<li>Não afirmar como fato histórico atribuições lendárias (autoria egípcia etc.).</li>
+</ul></section>
+<section id="livro" class="page" hidden><div class="note"><strong>Sobre este texto:</strong> transcrição de legenda automática de audiolivro (YouTube) com os timestamps removidos. É base de estudo — <em>não é verbatim</em> (sem pontuação, com erros residuais de reconhecimento). O texto completo tem ~33.500 palavras.</div><h2>Trecho da transcrição</h2><p>e o caibalion nós temos grande prazer em apresentar aos estudantes e investigadores da doutrina secreta esta pequena obra baseada nos preceitos herméticos do mundo antigo e Existem poucos escritos sobre este assunto apesar das inúmeras referências feitas pelos ocultistas aos prefeitos que expomos e de modo que por isso Esperamos que os investigadores dos arcanos da Verdade saberão dar bom acolhimento ao livro que agora aparece é o fim da obra não é e nunciação de uma filosofia ou doutrina especial mas sim fornecer aos estudantes uma exposição da Verdade que servirá para reconciliar os fragmentos do conhecimento oculto que adquiriram mas que são aparentemente opostos uns aos outros e que só servem para desanimar e desgostar o principiante neste estudo e o nosso intento não é construir um novo templo de conhecimento nota de rodapé nº 1 mas sim colocar nas mãos do Estudante uma chave mestra com que possa abrir todas as portas internas que conduzem ao templo do ministério cujo os portais já entrou e nenhum fragmento dos conhecimentos ocultos possuídos pelo mundo foi tão zelosamente guardado como os fragmentos dos preceitos herméticos que chegaram Até nós através dos séculos passados Desde o tempo do seu grande estabelecedor Hermes Trismegisto o mensageiro dos deuses que viviam no antigo Egito quando o atual raça humana estava em sua infância contemporâneo de Abraão e se for verdadeira lenda instrutor deste venerável sábio o Hermes foi e é o grande Sol central do ocultismo cujos raios tem iluminado todos os ensinamentos que foram publicados desde o seu tempo a todos os preceitos fundamentais e básicos introduzidos nos ensinos exotéricos de cada raça foram formulados por Hermes os mesmos mais antigos prefeitos da Índia tiveram indubitavelmente a sua fonte os preceitos herméticos originais da terra do Ganges muitos Mestres avançados se dirigiram para o país do Egito para se prostrar em aos pés do mestre o dele obtiveram a chave-mestra que explicava irreconciliável os seus diferentes pontos de vista Ah e assim a doutrina secreta ficou firmemente estabelecida e de outros países Também vieram muito sábios que consideravam um Hermes como Mestre dos Mestres Oi e a sua influência foi tão grande que apesar dos numerosos os desvios de caminho de centenares de instrutores desses diferentes países ainda se pode facilmente encontrar uma certa semelhança e correspondência nas muitas e divergentes teorias admitidas e com batidas pelos ocultistas de diferentes países atuais os estudantes de religiões comparadas compreenderam facilmente a influência dos preceitos herméticos em qualquer religião merecedora desse nome quer seja uma religião apenas conhecida atualmente quer seja uma religião morta ou uma religião cheio de vida no nosso próprio tempo não existe sempre uma correspondência entre elas apesar das aparências contraditórias e os preceitos herméticos são como que o seu grande e conciliador e a obra de Hermes parece ter sido feita com o fim de plantar a grande verdade semente o que se desenvolveu e germinou em tantas formas estranhas mas depressa do que se teria estabelecido uma escola de filosofia que dominasse o pensamento do mundo e todavia as verdades originais ensinadas por ele foram conservadas em patas na sua pureza original por um pequeno número de homens que recusando o grande parte de estudantes e discípulos pouco desenvolvidos seguiram o costume hermético e reservaram as suas verdades para os poucos que estavam preparados para compreendê-las e dirigi-las um dos lábios aos ouvidos a verdade tem sido transmitida Entre esses poucos e sempre existiram em cada geração e em vários países da terra alguns iniciados que conservaram viva a sagrada chama dos preceitos herméticos e sempre empregaram as suas lâmpadas para reacender as lâmpadas menores do mundo profano quando a luz da Verdade começava a escurecer e a apagar-se por causa da sua negligência e os seus pavios ficavam embaraçados com substâncias estranhas existiu sempre um punhado de homens para cuidar do altar da Verdade em que mantiveram sempre acesa a lâmpada Perpétua da sabedoria estes homens dedicaram a sua vida aí se trabalho de amor que o poeta muito bem descreveu nestas linhas e " Oi ó não deixei apagar a chama mantida de século em século nesta escura caverna neste Templo Sagrado sustentada por pura os ministros do amor não deixeis apagar esta Divina chama" a estes homens nunca procuraram a aprovação Popular nem grande número de prosélitos e são indiferentes a essas coisas porque sabem quão poucos de cada geração estão preparados para verdade o podem reconhecer lá se ela Liz for apresentada quem quiser vão a carne para os homens feitos enquanto outros dão Leite a as crianças quiser vão suas pérolas de Sabedoria para os poucos que conhecem o seu valor e sabem trazê-las nas suas coroas em vez de as lançaram o porco vulgar que enterrar azia na lama e as misturaria com o seu desagradável alimento mental é mas esses poucos Não esqueceram nem desprezaram os preceitos originais de Hermes que tratam da transmissão das palavras da Verdade aos que estão preparados para recebê-la a respeito dos quais diz o caibalion "em qualquer lugar que se achem os vestígios do mestre os ouvidos daqueles que estiverem preparados para receber o seu ensinamento se abriram completamente" e ainda "quando os ouvidos do discípulo estão preparados para ouvir então vem os lábios para enchê-los com sabedoria" é mas a sua atitude habitual sempre esteve estritamente de acordo com o outro forista médico também do Kaiba long-play "os lábios da sabedoria estão fechados exceto aos ouvidos do entendimento" notas de rodapé nº 2 e os que não podem compreender são os que criticaram essa atitude dos hermetistas e clamaram que eles não manifestavam o verdadeiro espírito dos seus ensinamentos nas as ociosas reservas e reticências que faziam há porém um rápido olhar retrospectivo que conheciam que era uma loucura Pretender ensinar ao mundo o que ele não desejava saber nem estava</p><div class="note">⬆️ Este é apenas o <strong>início</strong> da transcrição. O texto <strong>completo</strong> (~33.500 palavras) está no repositório do projeto, no arquivo <code>livro/caibalion-sem-timestamps.md</code>, e pode ser adicionado a esta página publicada mediante solicitação.</div></section>
+<section id="fonte" class="page" hidden><h1>Pasta <code>livro/</code> — o texto-fonte</h1>
+<h2>Arquivos</h2>
+<ul>
+<li><strong><code>caibalion-sem-timestamps.md</code></strong> — a transcrição do audiolivro (legenda automática
+  do YouTube) com os <strong>timestamps removidos</strong>. É o material enviado pelo usuário,
+  processado.</li>
+</ul>
+<h2>O que foi feito</h2>
+<p>A partir da legenda automática (formato <code>M:SS</code>/<code>H:MM:SS</code> colado à duração falada,
+ex.: <code>0:09 9 segundos</code>), um script determinístico:</p>
+<ol>
+<li>Removeu <strong>todos</strong> os marcadores de tempo do início de cada linha (2.245 ocorrências).</li>
+<li>Juntou os fragmentos em texto corrido (a legenda quebrava as frases no meio).</li>
+<li>Aplicou um pequeno conjunto de <strong>correções globais seguras</strong> de erros de
+   reconhecimento de voz: <code>Adventistas → hermetistas</code>, <code>Carvalho → Caibalion</code>,
+   <code>herpes → Hermes</code>, <code>trismegisto → Trismegisto</code>.</li>
+</ol>
+<p>Resultado: ~33.500 palavras, cobrindo introdução + os sete princípios + capítulos,
+terminando em <em>"o Todo é Mente; o universo é..."</em>.</p>
+<h2>Avisos de fidelidade (importante)</h2>
+<ul>
+<li>
+<p><strong>Não é uma transcrição verbatim</strong> da edição impressa. É fala convertida em texto
+  por máquina: <strong>sem pontuação</strong> e com <strong>erros de reconhecimento remanescentes</strong>.</p>
+</li>
+<li>
+<p>Serve muito bem como <strong>base de estudo e referência de ideias</strong>, mas para citações
+  literais use os axiomas em <code>../curso/recursos/axiomas.md</code>.</p>
+</li>
+</ul>
+<h2>Como obter uma versão verbatim fiel (próximo passo opcional)</h2>
+<p>O original inglês (<em>The Kybalion</em>, 1908) e a tradução de <strong>Rosabis Camaysar (1920)</strong>
+estão em <strong>domínio público</strong>. Se você fornecer o <strong>PDF ou texto</strong> de uma dessas
+edições (anexando no chat), é possível gerar uma transcrição verbatim, pontuada e
+dividida capítulo a capítulo, em um novo arquivo <code>caibalion-verbatim.md</code> — sem
+sobrescrever este.</p></section>
+<section id="ementa" class="page" hidden><h1>Ementa — Curso "O Caibalion: As Sete Leis Herméticas"</h1>
+<h2>Apresentação</h2>
+<p>Curso introdutório de filosofia hermética a partir de <em>O Caibalion</em> (Três Iniciados,
+1908). Percorre os <strong>Sete Princípios Herméticos</strong> — Mentalismo, Correspondência,
+Vibração, Polaridade, Ritmo, Causa e Efeito e Gênero — unindo estudo do texto,
+exemplos do cotidiano e exercícios práticos de "alquimia mental" (autodesenvolvimento).</p>
+<h2>Objetivos de aprendizagem</h2>
+<p>Ao final do curso, o aluno será capaz de:</p>
+<ol>
+<li>Explicar o contexto histórico e a proposta do <em>Caibalion</em> (sem confundir lenda e história).</li>
+<li>Enunciar e explicar cada um dos sete princípios e seus axiomas.</li>
+<li>Reconhecer os princípios operando em situações concretas (natureza, mente, relações).</li>
+<li>Aplicar a "transmutação mental" como prática reflexiva de mudança de estados internos.</li>
+<li>Relacionar os princípios entre si (correspondência, polaridade e ritmo, etc.).</li>
+<li>Posicionar criticamente a obra dentro do Novo Pensamento e da tradição esotérica.</li>
+</ol>
+<h2>Público-alvo e pré-requisitos</h2>
+<ul>
+<li>Público: iniciantes interessados em filosofia, esoterismo e autoconhecimento.</li>
+<li>Pré-requisitos: nenhum.</li>
+</ul>
+<h2>Carga horária (sugerida)</h2>
+<ul>
+<li><strong>8 módulos</strong>, ~2h de estudo cada (aula + leitura + exercícios) → <strong>~16h</strong>.</li>
+<li>Formato flexível: autoinstrucional, turma online ou presencial.</li>
+</ul>
+<h2>Estrutura em módulos</h2>
+<table>
+<thead>
+<tr>
+<th>Módulo</th>
+<th>Título</th>
+<th>Capítulos-fonte</th>
+<th>Princípios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>Fundamentos: Hermes, o Caibalion e o mapa dos 7 princípios</td>
+<td>Introdução, I, II</td>
+<td>Panorama</td>
+</tr>
+<tr>
+<td>02</td>
+<td>Mentalismo e a Transmutação Mental</td>
+<td>II, III</td>
+<td>1º</td>
+</tr>
+<tr>
+<td>03</td>
+<td>O Todo, o Universo Mental e o Paradoxo Divino</td>
+<td>IV, V, VI, VII</td>
+<td>(metafísica)</td>
+</tr>
+<tr>
+<td>04</td>
+<td>A Correspondência e os Planos da Existência</td>
+<td>VIII</td>
+<td>2º</td>
+</tr>
+<tr>
+<td>05</td>
+<td>Vibração e Polaridade</td>
+<td>IX, X</td>
+<td>3º e 4º</td>
+</tr>
+<tr>
+<td>06</td>
+<td>Ritmo e Causalidade</td>
+<td>XI, XII</td>
+<td>5º e 6º</td>
+</tr>
+<tr>
+<td>07</td>
+<td>Gênero e Gênero Mental</td>
+<td>XIII, XIV</td>
+<td>7º</td>
+</tr>
+<tr>
+<td>08</td>
+<td>Axiomas Herméticos e Aplicação Integrada (projeto final)</td>
+<td>XV</td>
+<td>Síntese</td>
+</tr>
+</tbody>
+</table>
+<p>Cada módulo tem seu arquivo em <code>curso/modulos/</code>.</p>
+<h2>Metodologia</h2>
+<p>Para cada princípio, o roteiro didático é:</p>
+<ol>
+<li><strong>Enunciar</strong> o princípio e seu axioma.</li>
+<li><strong>Explicar</strong> em linguagem simples.</li>
+<li><strong>Ilustrar</strong> com um exemplo do cotidiano/natureza (as próprias imagens do livro).</li>
+<li><strong>Exercitar</strong> com uma prática reflexiva ou pergunta de discussão.</li>
+</ol>
+<h2>Avaliação</h2>
+<ul>
+<li><strong>Formativa:</strong> exercícios/reflexões ao fim de cada aula (não pontuados ou pontuados leves).</li>
+<li><strong>Somativa por módulo:</strong> 1 questão dissertativa + 1 aplicação prática.</li>
+<li>
+<p><strong>Projeto final (Módulo 08):</strong> o aluno escolhe uma situação da própria vida e a
+  analisa à luz dos sete princípios, propondo uma "transmutação" concreta.</p>
+</li>
+<li>
+<p><strong>Critérios:</strong> compreensão dos conceitos, uso correto dos axiomas, qualidade dos
+  exemplos e coerência da aplicação.</p>
+</li>
+</ul>
+<h2>Recursos de apoio</h2>
+<ul>
+<li><code>livro/caibalion-sem-timestamps.md</code> — texto-fonte (ver aviso de fidelidade).</li>
+<li><code>curso/recursos/axiomas.md</code> — os sete axiomas e máximas.</li>
+<li><code>curso/recursos/glossario.md</code> — termos herméticos.</li>
+<li><code>curso/recursos/mapa-correspondencias.md</code> — como os princípios se conectam.</li>
+</ul>
+<h2>Observações de integridade</h2>
+<ul>
+<li>
+<p>O <em>Caibalion</em> é obra de 1908 (Novo Pensamento); a atribuição ao Egito antigo é
+  parte da narrativa da obra, não fato histórico. O curso trata disso abertamente.</p>
+</li>
+<li>
+<p>Práticas de "transmutação mental" têm finalidade reflexiva/educacional e <strong>não
+  substituem</strong> acompanhamento médico, psicológico ou financeiro profissional.</p>
+</li>
+</ul></section>
+<section id="facilitador" class="page" hidden><h1>Guia do Facilitador</h1>
+<p>Orientações para conduzir o curso "O Caibalion: As Sete Leis Herméticas".</p>
+<h2>Antes de começar</h2>
+<ul>
+<li>Leia a <code>ementa.md</code> e o <code>CLAUDE.md</code> (postura pedagógica e enquadramento honesto).</li>
+<li>Familiarize-se com os sete axiomas em <code>recursos/axiomas.md</code>.</li>
+<li>Decida o formato: autoinstrucional, turma online ao vivo, ou presencial.</li>
+</ul>
+<h2>Ritmo sugerido</h2>
+<ul>
+<li>1 módulo por semana (8 semanas), ou 2 módulos por encontro (curso intensivo de 4 encontros).</li>
+<li>Cada módulo: exposição → exemplo → exercício → discussão.</li>
+</ul>
+<h2>Método de cada aula (4 passos)</h2>
+<ol>
+<li><strong>Enunciar</strong> o princípio e o axioma (peça que alguém leia em voz alta).</li>
+<li><strong>Explicar</strong> em linguagem simples, sem jargão.</li>
+<li>
+<p><strong>Ilustrar</strong> com um exemplo do cotidiano (use as analogias do próprio livro:
+   pêndulo, termômetro, oitavas musicais, marés).</p>
+</li>
+<li>
+<p><strong>Exercitar</strong>: aplicar a uma situação real; abrir para partilha.</p>
+</li>
+</ol>
+<h2>Boas práticas</h2>
+<ul>
+<li><strong>Não dogmatize.</strong> Apresente como sistema de ideias a experimentar, não verdade absoluta.</li>
+<li>
+<p><strong>Contextualize a história.</strong> Deixe claro que o Caibalion é de 1908 (Novo Pensamento)
+  e que a moldura egípcia/Hermes é narrativa, não fato histórico.</p>
+</li>
+<li>
+<p><strong>Cuidado com promessas.</strong> "Transmutação mental" é prática reflexiva de
+  autodesenvolvimento — não é cura, não é garantia de resultados materiais, não
+  substitui ajuda médica, psicológica ou financeira. Reforce isso quando necessário.</p>
+</li>
+<li>
+<p><strong>Acolha o ceticismo.</strong> Perguntas críticas enriquecem; trate-as com respeito.</p>
+</li>
+</ul>
+<h2>Avaliação</h2>
+<ul>
+<li>Formativa: exercícios ao fim de cada aula.</li>
+<li>Somativa: 1 dissertativa + 1 aplicação por módulo.</li>
+<li>Projeto final (Módulo 08): análise de um caso real pelos sete princípios.</li>
+</ul>
+<h2>Usando a IA (Claude) como coautor/tutor</h2>
+<p>O <code>CLAUDE.md</code> configura o assistente para:</p>
+<ul>
+<li>responder dúvidas ancorando cada explicação em um princípio + axioma;</li>
+<li>ajudar a desenvolver o conteúdo completo das aulas a partir dos esqueletos;</li>
+<li>manter o enquadramento honesto e o uso responsável.</li>
+</ul>
+<p>Peça, por exemplo: <em>"desenvolva a Aula 05.2 (Polaridade) em texto completo, com 3
+exemplos e 2 exercícios"</em> — o assistente seguirá a estrutura já definida.</p></section>
+<section id="modulo-01" class="page" hidden><h1>Módulo 01 — Fundamentos: Hermes, o Caibalion e o mapa dos 7 princípios</h1>
+<p><strong>Capítulos-fonte:</strong> Introdução, Cap. I (A Filosofia Hermética), Cap. II (Os Sete Princípios)</p>
+<p><strong>Resumo do módulo:</strong> Antes de estudar cada lei, é preciso entender <em>o que</em> é o
+Caibalion, <em>de onde</em> ele vem e <em>para que</em> serve. Neste módulo você recebe a
+"chave-mestra": a visão de conjunto dos sete princípios que organiza todo o curso.</p>
+<hr />
+<h2>Aula 01.1 — O que é o Caibalion</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Explicar o que é a obra e qual é a sua proposta.</li>
+<li>Distinguir a narrativa lendária (Egito, Hermes) do contexto histórico real.</li>
+</ul>
+<h3>O texto e sua promessa</h3>
+<p><em>O Caibalion</em> é um pequeno livro publicado em 1908, assinado por "Três Iniciados".
+Ele não pretende fundar uma religião nem provar uma ciência: sua promessa é mais
+modesta e mais ambiciosa ao mesmo tempo — entregar ao estudante uma <strong>chave-mestra</strong>.
+Nas palavras da própria obra, o objetivo não é construir um novo templo do
+conhecimento, "mas sim colocar nas mãos do estudante uma chave-mestra com que possa
+abrir todas as portas internas que conduzem ao templo do mistério".</p>
+<p>A imagem é precisa. Em vez de decorar mil fatos isolados, o hermetista aprende um
+punhado de <strong>princípios</strong> que se aplicam a inúmeras situações. Uma chave-mestra não
+abre uma porta: abre todas as portas de um mesmo edifício. Os sete princípios
+funcionam assim — são poucos, mas explicam muito.</p>
+<h3>A lenda e a história (o enquadramento honesto)</h3>
+<p>A obra atribui esses ensinamentos a <strong>Hermes Trismegisto</strong>, figura lendária do Egito
+antigo, "o mensageiro dos deuses". É uma bela narrativa de origem — e é importante
+tratá-la como tal. Historicamente, <em>O Caibalion</em> é um produto do movimento do
+<strong>Novo Pensamento</strong> (New Thought) norte-americano do início do século XX, não um
+papiro egípcio. Reconhecer isso <strong>não diminui</strong> o valor filosófico e prático do
+livro; apenas nos mantém honestos. Estudamos o Caibalion pelas ideias que ele
+organiza tão bem, não por uma pretensa antiguidade.</p>
+<h3>O primeiro axioma</h3>
+<blockquote>
+<p>"Os lábios da sabedoria permanecem fechados, exceto para os ouvidos do Entendimento."</p>
+</blockquote>
+<p>Este axioma de abertura dá o tom de todo o método hermético. Ele diz que a verdade
+não se transmite apenas por informação: exige <strong>preparo interior</strong> para ser
+compreendida. As mesmas palavras produzem entendimento em uns e confusão em outros —
+não por segredo guardado a sete chaves, mas porque compreender é uma capacidade que
+se desenvolve. O curso inteiro é um exercício de "abrir os ouvidos do Entendimento".</p>
+<p><strong>Exemplo/analogia</strong> — Duas pessoas leem a frase "tudo passa". Para uma, é um clichê;
+para outra, que atravessa um luto, é uma verdade que reorganiza o dia. A frase é a
+mesma; o que muda é o "ouvido" que a recebe.</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Escreva, em três linhas, o que você espera aprender neste curso.</li>
+<li>Por que uma "chave-mestra" (poucos princípios) pode valer mais do que muitos fatos soltos?</li>
+<li>O que o axioma dos "ouvidos do Entendimento" sugere sobre a diferença entre <em>saber</em> e <em>compreender</em>?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O Caibalion oferece princípios (chave-mestra), não uma lista de dogmas.</li>
+<li>A moldura egípcia é narrativa; a origem histórica é o Novo Pensamento (1908).</li>
+<li>Compreender exige preparo, não apenas informação.</li>
+</ul>
+<hr />
+<h2>Aula 01.2 — A Filosofia Hermética</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Descrever a tradição hermética e sua pretensão de reconciliar conhecimentos.</li>
+</ul>
+<h3>O "grande conciliador"</h3>
+<p>O hermetismo se apresenta como um solo comum sob tradições muito diferentes. A obra
+sugere que, por baixo das aparências contraditórias das religiões e filosofias, há
+uma mesma estrutura de verdades — e que os preceitos herméticos funcionam como um
+"grande conciliador" entre elas. Não se trata de dizer que "tudo é igual", mas de
+procurar o <strong>padrão comum</strong> que diferentes linguagens tentam descrever.</p>
+<h3>Por que o conhecimento foi mantido reservado</h3>
+<p>O Caibalion explica que esses preceitos foram transmitidos discretamente, "de lábios
+a ouvidos", durante séculos. A razão dada não é elitismo, mas prudência: ideias
+poderosas mal compreendidas causam mais dano do que bem. Guardar não significa
+esconder por vaidade, e sim entregar na medida em que o estudante possa sustentar o
+que recebe — de novo o tema dos "ouvidos do Entendimento".</p>
+<p><strong>Exemplo/analogia</strong> — Idiomas diferentes descrevem o mesmo pôr do sol. As palavras
+mudam, o fenômeno é um só. O hermetismo procura o "pôr do sol" por trás das palavras.</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>
+<p>Cite duas tradições, filosofias ou ideias que você conhece e proponha <strong>um</strong> ponto
+   em comum entre elas.</p>
+</li>
+<li>
+<p>Você concorda que ideias poderosas exigem preparo para serem usadas? Dê um exemplo.</p>
+</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O hermetismo busca o padrão comum sob tradições diversas.</li>
+<li>A reserva do ensino é prudência pedagógica, não segredo por vaidade.</li>
+</ul>
+<hr />
+<h2>Aula 01.3 — Panorama dos Sete Princípios</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar os sete princípios e associar cada um ao seu axioma.</li>
+</ul>
+<h3>A "gramática" do curso</h3>
+<p>Todo o resto do Caibalion é o desdobramento de <strong>sete</strong> princípios. Vê-los juntos,
+antes de aprofundar cada um, é como olhar o mapa antes da viagem. São eles:</p>
+<ol>
+<li><strong>Mentalismo</strong> — <em>"O Todo é Mente; o Universo é Mental."</em></li>
+<li><strong>Correspondência</strong> — <em>"O que está em cima é como o que está embaixo."</em></li>
+<li><strong>Vibração</strong> — <em>"Nada está parado; tudo se move; tudo vibra."</em></li>
+<li><strong>Polaridade</strong> — <em>"Tudo é duplo; os opostos são idênticos em natureza, diferentes em grau."</em></li>
+<li><strong>Ritmo</strong> — <em>"Tudo tem fluxo e refluxo; o ritmo compensa."</em></li>
+<li><strong>Causa e Efeito</strong> — <em>"Nada acontece por acaso; o acaso é apenas uma lei não reconhecida."</em></li>
+<li><strong>Gênero</strong> — <em>"O gênero está em tudo; tudo tem seus princípios masculino e feminino."</em></li>
+</ol>
+<p>Pense neles como <strong>sete lentes</strong>. Diante de qualquer situação, você pode perguntar:
+isto é, em parte, um estado da minha mente (1)? Onde já vi este padrão (2)? Em que
+grau/estado estou (3)? Qual é o polo oposto (4)? Isto é fase de um ciclo (5)? Sou
+causa ou efeito (6)? O que estou gerando (7)? O curso ensina a usar cada lente.</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Faça sete cartões de memória (físicos ou digitais): nome do princípio + axioma resumido.</li>
+<li>Escolha uma situação recente e tente enxergá-la por <strong>duas</strong> das sete lentes.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Sete princípios organizam toda a obra.</li>
+<li>Cada princípio é uma "lente" para ler a realidade e agir sobre ela.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li>
+<p><strong>Dissertativa:</strong> explique, com suas palavras, a metáfora da "chave-mestra" e por
+  que o Caibalion prefere princípios a dogmas.</p>
+</li>
+<li>
+<p><strong>Aplicação:</strong> descreva uma situação da sua vida e aponte qual(is) dos sete
+  princípios parece(m) mais útil(eis) para entendê-la.</p>
+</li>
+<li>
+<p><strong>Critérios:</strong> clareza conceitual, honestidade histórica (lenda × história) e
+  qualidade do exemplo.</p>
+</li>
+</ul></section>
+<section id="modulo-02" class="page" hidden><h1>Módulo 02 — Mentalismo e a Transmutação Mental</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. II (1º princípio), Cap. III (A Transmutação Mental)</p>
+<p><strong>Resumo do módulo:</strong> O primeiro e mais fundamental princípio — <em>"O Todo é Mente"</em> —
+e a sua consequência prática mais direta: a <strong>transmutação mental</strong>, a arte de mudar
+os próprios estados internos. Se o resto do curso depende de algum princípio, é deste.</p>
+<hr />
+<h2>Aula 02.1 — O Princípio do Mentalismo</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e explicar o 1º princípio: <em>"O Todo é Mente; o Universo é Mental."</em></li>
+<li>Entender por que este princípio torna possível toda transformação interior.</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"O Todo é Mente; o Universo é Mental." — O Caibalion</p>
+</blockquote>
+<p>O Mentalismo diz que a realidade última — aquilo que o Caibalion chama de <strong>o Todo</strong> —
+é de natureza <strong>mental</strong>, e que o universo é uma criação dentro dessa Mente infinita.
+É uma afirmação metafísica grande, que estudaremos com mais calma no Módulo 3. Mas
+para a prática, o que importa desde já é a consequência: se o fundo de tudo é mente,
+então a <strong>mente</strong> é o lugar onde se pode intervir.</p>
+<p>Note que o princípio <strong>não</strong> diz "a realidade não existe" ou "basta pensar positivo
+que tudo muda lá fora". Diz algo mais sóbrio: a substância do real é mental, e por
+isso a mente é uma alavanca legítima de mudança — sobretudo da mudança que mais nos
+cabe, a de nós mesmos.</p>
+<h3>Por que isso é a base de tudo</h3>
+<p>Sem o Mentalismo, a "transmutação mental" seria só desejo. É porque a experiência é,
+em grande parte, mental que reinterpretar, redirecionar a atenção e cultivar estados
+tem efeito real sobre como vivemos. Os princípios seguintes (Vibração, Polaridade,
+Ritmo…) descrevem <em>como</em> a mente se move; o Mentalismo diz <em>por que</em> mexer nela funciona.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>O sonho:</strong> enquanto sonhamos, todo o "mundo" do sonho é feito da mente de quem
+  sonha. O Mentalismo estende essa intuição ao universo como criação da Mente do Todo.</p>
+</li>
+<li>
+<p><strong>A mesma notícia, dois efeitos:</strong> dois colegas recebem o mesmo aviso de mudança na
+  empresa. Um sente ameaça, o outro sente oportunidade. O fato é idêntico; a
+  experiência, radicalmente diferente — porque a experiência é mental.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Descreva uma situação em que <strong>mudar a interpretação</strong> (não o fato) mudou sua experiência dele.</li>
+<li>Onde está a diferença entre "a mente influencia minha experiência" e "só pensar já muda o mundo externo"? Por que essa distinção protege você de ilusões?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O Todo é Mente; o universo é sua criação mental.</li>
+<li>Como a experiência é mental, a mente é uma alavanca real de mudança — sobretudo interna.</li>
+<li>O Mentalismo é o fundamento que torna a transmutação possível.</li>
+</ul>
+<hr />
+<h2>Aula 02.2 — A Transmutação Mental (a alquimia mental)</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Explicar a transmutação mental como arte de mudar estados e condições mentais.</li>
+<li>Aplicá-la de forma responsável, conhecendo seus limites.</li>
+</ul>
+<h3>De "transmutar metais" a "transmutar estados"</h3>
+<p>Os antigos alquimistas falavam em transformar metais grosseiros em ouro. O Caibalion
+lê essa linguagem como <strong>símbolo</strong>: a verdadeira alquimia é mental. Transmutar é
+transformar um estado mental indesejado em um estado desejado — medo em coragem,
+irritação em foco, desânimo em iniciativa. A obra é enfática: <em>"A verdadeira
+transmutação hermética é uma arte mental."</em></p>
+<p>Isso não acontece por força de vontade bruta ("pare de ter medo!"), o que raramente
+funciona. Acontece deslocando-se ao longo de uma escala. Como veremos no Módulo 5, o
+medo e a coragem são <strong>polos do mesmo eixo</strong> (Polaridade), e mudamos de um para o
+outro subindo a <strong>escala de vibração</strong> (Vibração). A transmutação, portanto, é o
+Mentalismo em ação, usando a Polaridade e a Vibração como método.</p>
+<h3>Um roteiro prático (3 passos)</h3>
+<ol>
+<li><strong>Nomear</strong> o estado atual com precisão ("estou ansioso", não "estou mal").</li>
+<li><strong>Identificar o polo desejado</strong> no mesmo eixo ("de ansioso para sereno").</li>
+<li><strong>Agir na direção do polo</strong>: mudar foco, respiração, linguagem interna, corpo,
+   ambiente — pequenos deslocamentos repetidos, não um salto mágico.</li>
+</ol>
+<h3>Limites e uso responsável</h3>
+<p>Transmutação mental é uma prática de <strong>autodesenvolvimento e regulação interna</strong>. Ela
+<strong>não</strong> é cura de doenças, não garante resultados materiais e <strong>não substitui</strong> ajuda
+médica, psicológica ou financeira profissional. Usada com honestidade, é uma
+ferramenta poderosa para lidar com estados internos; vendida como "poder para
+controlar o mundo", vira ilusão. Mantenha o registro sóbrio.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Do contratempo ao treino:</strong> reinterpretar um imprevisto como "treino de paciência"
+  transmuta a irritação em foco, sem negar o incômodo.</p>
+</li>
+<li>
+<p><strong>O termostato interno:</strong> assim como se ajusta a temperatura de um cômodo por graus,
+  ajusta-se um estado mental por graus — não com um interruptor de "ligar/desligar".</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Escolha <strong>um</strong> estado mental recorrente que o incomoda. Nomeie-o e identifique o polo oposto desejado.</li>
+<li>Esboce seu "plano de transmutação" em 3 passos concretos (o que fazer com foco, corpo e linguagem interna).</li>
+<li>Escreva uma frase que delimite o uso responsável dessa prática para você.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Transmutação = mudar estados mentais de um polo a outro, deslocando-se por graus.</li>
+<li>É o Mentalismo aplicado, com Polaridade e Vibração como método.</li>
+<li>Ferramenta de autorregulação — não é mágica nem substitui profissionais.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique o princípio do Mentalismo e como ele fundamenta a transmutação mental.</li>
+<li><strong>Aplicação:</strong> relate uma tentativa real de transmutar um estado seu usando o roteiro de 3 passos; o que funcionou e o que não funcionou?</li>
+<li><strong>Critérios:</strong> compreensão do princípio, uso correto do axioma, realismo e responsabilidade na aplicação.</li>
+</ul></section>
+<section id="modulo-03" class="page" hidden><h1>Módulo 03 — O Todo, o Universo Mental e o Paradoxo Divino</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. IV (O Todo), V (O Universo Mental), VI (O Paradoxo Divino), VII ("O Todo" em Tudo)</p>
+<p><strong>Resumo do módulo:</strong> A parte mais filosófica do Caibalion. Aqui enfrentamos as
+perguntas de fundo: o que é essa realidade última chamada "o Todo"? Se o universo é
+mental, ele é "real" ou "ilusão"? E como viver sabiamente entre esses dois níveis?</p>
+<hr />
+<h2>Aula 03.1 — O Todo</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Caracterizar "o Todo" como realidade última, incognoscível em sua essência.</li>
+<li>Saber o que se pode e o que não se pode afirmar sobre ele.</li>
+</ul>
+<h3>O que é "o Todo"</h3>
+<p>O Caibalion chama de <strong>o Todo</strong> a realidade substancial, infinita, que está por trás
+e dentro de todas as coisas. Tudo o que existe é uma manifestação do Todo; nada existe
+fora dele. Sendo assim, o Todo é anterior a qualquer definição — pois definir é
+limitar, e o Todo é ilimitado.</p>
+<h3>O que <strong>não</strong> se pode dizer</h3>
+<p>A obra insiste num ponto que exige humildade intelectual: <strong>a essência do Todo é
+incognoscível</strong>. Podemos saber <em>que</em> ele é, mas não <em>o que</em> ele é em si. Qualquer
+tentativa de reduzi-lo a uma imagem — um velho no céu, uma força cega, uma máquina —
+já o diminui. O hermetismo recusa tanto o materialismo ingênuo (que reduz tudo a
+matéria morta) quanto o antropomorfismo (que faz do Todo uma pessoa aumentada).</p>
+<p>O que se pode afirmar é o mínimo: o Todo é <strong>Espírito</strong>, no sentido de algo mais
+próximo da Mente do que da matéria — o que nos reconduz ao Mentalismo (Módulo 2). Daí
+o Caibalion tratar o universo como criação <strong>mental</strong> do Todo, tema da próxima aula.</p>
+<p><strong>Exemplo/analogia</strong> — Um personagem de romance jamais poderá conter, dentro da
+história, o autor que o criou. Ele pode intuir que "há um autor", mas não abarcá-lo. A
+mente finita está para o Todo como o personagem está para o autor.</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Liste <strong>três</strong> coisas que o texto afirma <em>não</em> ser possível dizer sobre o Todo e explique por quê.</li>
+<li>Por que "definir" o Todo já seria, de certo modo, um erro?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O Todo é a realidade última; nada existe fora dele.</li>
+<li>Sua essência é incognoscível: sabemos <em>que</em> é, não <em>o que</em> é.</li>
+<li>O hermetismo recusa tanto o materialismo quanto o antropomorfismo.</li>
+</ul>
+<hr />
+<h2>Aula 03.2 — O Universo Mental e o Paradoxo Divino</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Explicar o universo como criação mental do Todo.</li>
+<li>Compreender o Paradoxo Divino e a regra prática que dele deriva.</li>
+</ul>
+<h3>O universo "na mente do Todo"</h3>
+<p>Se o Todo é essencialmente Mente, então o universo é uma <strong>criação mental</strong> — algo
+que o Todo mantém em seu pensamento, assim como um autor mantém um mundo inteiro em
+sua imaginação. Isso não torna o universo "falso": torna-o real <em>no seu plano</em>, ainda
+que dependente, derivado, não absoluto como o Todo.</p>
+<h3>O Paradoxo Divino</h3>
+<p>Surge então uma tensão que o Caibalion chama de <strong>Paradoxo Divino</strong>: do ponto de vista
+do Absoluto, o universo é aparência; do ponto de vista de quem vive nele, é
+plenamente real e suas leis operam sem trégua. O erro dos "meio-sábios" é usar a ideia
+de que "tudo é mental/ilusão" para negar a realidade cotidiana — e tropeçar nela. A
+regra prática do hermetismo é a oposta:</p>
+<blockquote>
+<p>Considere o universo como ilusório em relação ao Absoluto, <strong>mas</strong> viva e aja de
+acordo com as suas leis. Use a Lei; não a negue.</p>
+</blockquote>
+<p>Em outras palavras: mantenha uma perspectiva ampla (o relativo é relativo) sem perder
+o chão (o relativo, no seu plano, é para valer).</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>O filme:</strong> a cena é "irreal" como matéria — são luzes numa tela —, mas real como
+  experiência para quem assiste. Dois níveis ao mesmo tempo.</p>
+</li>
+<li>
+<p><strong>O ator maduro:</strong> entrega-se ao papel (age dentro da peça) sabendo que é um papel.
+  Nem frio e distante, nem confuso a ponto de achar que a peça é a vida inteira.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Explique, com um exemplo seu, como algo pode ser "real em um plano e ilusório em outro".</li>
+<li>Onde você já viu alguém usar "é tudo mental" como desculpa para ignorar a realidade? Como o Paradoxo Divino corrige isso?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O universo é criação mental do Todo: real no seu plano, derivado em relação ao Absoluto.</li>
+<li>Paradoxo Divino: aparência para o Absoluto, realidade para quem vive nela.</li>
+<li>Regra prática: <strong>use a Lei, não a negue.</strong></li>
+</ul>
+<hr />
+<h2>Aula 03.3 — "O Todo" em Tudo</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Explicar a imanência: o Todo presente em cada coisa, sem deixar de transcendê-la.</li>
+</ul>
+<h3>Transcendente e imanente ao mesmo tempo</h3>
+<p>Se tudo é criação do Todo, então o Todo está <strong>em</strong> tudo. O Caibalion sustenta as duas
+afirmações juntas: o Todo <strong>transcende</strong> o universo (é infinitamente mais do que ele)
+e ao mesmo tempo é <strong>imanente</strong> (está presente em cada parte). Não é um Deus distante
+nem se confunde com as coisas; está além e dentro.</p>
+<h3>Implicações contemplativas e éticas</h3>
+<p>Essa dupla verdade tem efeitos práticos. Se o Todo está em tudo e em todos, muda o
+olhar: pessoas comuns, tarefas comuns, a natureza — nada é meramente banal. Há uma
+dignidade de fundo em cada coisa. Sem cair em sentimentalismo, o hermetista cultiva
+um respeito atento pelo real, justamente porque enxerga nele a presença do Todo.</p>
+<p><strong>Exemplo/analogia</strong> — A mesma água do oceano está em cada gota: distinta na forma,
+idêntica na natureza. Cada coisa é uma "gota" que participa da mesma "água".</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Se "o Todo está em tudo", como isso mudaria a forma como você trata pessoas e coisas comuns nesta semana?</li>
+<li>Como manter esse olhar sem cair em ingenuidade ou negar problemas reais?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>O Todo transcende e habita o universo ao mesmo tempo (imanência + transcendência).</li>
+<li>Enxergar o Todo em tudo transforma o olhar sobre o cotidiano.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique o Paradoxo Divino e a regra "use a Lei, não a negue".</li>
+<li><strong>Aplicação:</strong> dê um exemplo pessoal de duas perspectivas (ampla × cotidiana) sobre uma mesma situação e como equilibrá-las.</li>
+<li><strong>Critérios:</strong> rigor conceitual, uso correto das ideias de imanência/transcendência e maturidade na aplicação.</li>
+</ul></section>
+<section id="modulo-04" class="page" hidden><h1>Módulo 04 — A Correspondência e os Planos da Existência</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. VIII (Os Planos de Correspondência)</p>
+<p><strong>Resumo do módulo:</strong> O 2º princípio — <em>"como em cima, assim embaixo"</em> — é, ao mesmo
+tempo, uma afirmação sobre a estrutura da realidade e um <strong>método de raciocínio</strong>.
+Aqui você aprende a usar a analogia como ferramenta de descoberta e conhece os planos
+físico, mental e espiritual.</p>
+<hr />
+<h2>Aula 04.1 — O Princípio da Correspondência</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e aplicar o 2º princípio: <em>"O que está em cima é como o que está embaixo; o que está embaixo é como o que está em cima."</em></li>
+<li>Usar a correspondência para raciocinar do conhecido ao desconhecido — e conhecer seus limites.</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"O que está em cima é como o que está embaixo; o que está embaixo é como o que está em cima." — O Caibalion</p>
+</blockquote>
+<p>A Correspondência afirma que há <strong>harmonia e concordância</strong> entre os diversos planos
+da existência. Os mesmos padrões se repetem em escalas diferentes: o que acontece no
+grande se reflete no pequeno, e vice-versa. A realidade não é um amontoado de andares
+sem relação; é um edifício com uma mesma arquitetura em cada andar.</p>
+<h3>Correspondência como método</h3>
+<p>O uso mais poderoso deste princípio é epistemológico: ele nos permite <strong>raciocinar do
+conhecido ao desconhecido</strong>. Quando não podemos observar diretamente algo (o muito
+grande, o muito pequeno, o interior de outra pessoa, o funcionamento da própria
+mente), procuramos um plano análogo que conhecemos melhor e usamos o padrão de lá como
+hipótese aqui. A obra diz que quem domina a correspondência "raciocina inteligentemente
+do conhecido ao desconhecido".</p>
+<h3>O limite (importante)</h3>
+<p>Analogia <strong>ilumina</strong>, mas não <strong>prova</strong>. A correspondência gera boas hipóteses e boas
+imagens de compreensão; ela não dispensa a verificação. Um bom hermetista usa a
+analogia para <em>enxergar</em> e depois testa — não confunde "parece" com "é". Este cuidado
+distingue a sabedoria hermética da superstição.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Átomo e sistema solar:</strong> durante muito tempo o átomo foi imaginado como um pequeno
+  sistema solar. Útil como imagem inicial — e imperfeito, como toda analogia.</p>
+</li>
+<li>
+<p><strong>A empresa como organismo:</strong> entender uma organização por analogia com um corpo
+  (circulação de informação = sangue, liderança = sistema nervoso) ajuda a diagnosticar
+  problemas — desde que não se leve a metáfora ao pé da letra.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Escolha algo que você entende <strong>bem</strong> e use-o, por analogia, para explicar algo que entende <strong>pouco</strong>.</li>
+<li>Em seguida, aponte <strong>onde</strong> essa analogia falha. (Achar o limite é parte do domínio do princípio.)</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Correspondência: os mesmos padrões se repetem nos vários planos.</li>
+<li>É um método para ir do conhecido ao desconhecido por analogia.</li>
+<li>Analogia ilumina, não prova — sempre encontre seu limite.</li>
+</ul>
+<hr />
+<h2>Aula 04.2 — Os Planos da Existência</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Descrever os planos físico, mental e espiritual e a ideia de escala/graus.</li>
+</ul>
+<h3>Três grandes planos</h3>
+<p>O Caibalion organiza a existência em três grandes planos — <strong>físico</strong>, <strong>mental</strong> e
+<strong>espiritual</strong> —, cada um com muitos sub-planos e graus. Não são lugares separados,
+mas <strong>níveis</strong> de uma mesma realidade, distinguidos pelo "grau de vibração" (tema do
+Módulo 5). O plano físico abrange da matéria mais densa às formas sutis de energia; o
+mental, os estados e processos da mente; o espiritual, os graus mais elevados do ser.</p>
+<h3>A escala e a repetição de padrões</h3>
+<p>A ideia central é a de <strong>escala contínua</strong>: entre um plano e outro não há um abismo,
+mas uma gradação. E, por causa da Correspondência, o mesmo padrão reaparece em cada
+faixa da escala — como as <strong>oitavas musicais</strong>, em que as mesmas sete notas se repetem
+em alturas diferentes. Conhecer um plano ajuda a intuir os outros, justamente porque a
+arquitetura se repete.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Oitavas musicais:</strong> dó, ré, mi… reaparecem em cada oitava, mais graves ou mais
+  agudas. "Planos" do som — mesma estrutura, alturas diferentes.</p>
+</li>
+<li>
+<p><strong>Do físico ao mental:</strong> o padrão "ação e reação" aparece na mecânica (empurrão →
+  contra-empurrão) e também na vida mental (repressão → retorno do reprimido). Mesmo
+  padrão, planos diferentes — uma aplicação direta da correspondência.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Dê um exemplo de <strong>um mesmo padrão</strong> que você reconhece no plano físico <strong>e</strong> no plano mental.</li>
+<li>Por que pensar em "escala/graus" (e não em caixas separadas) muda a forma de entender a realidade?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Três planos — físico, mental, espiritual — como níveis de uma escala contínua.</li>
+<li>Distinguem-se por grau de vibração, não por serem mundos isolados.</li>
+<li>A Correspondência faz o mesmo padrão reaparecer em cada plano.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique a Correspondência como método e por que a analogia precisa sempre ter seu limite reconhecido.</li>
+<li><strong>Aplicação:</strong> construa uma analogia própria entre dois planos e aponte onde ela ilumina e onde ela falha.</li>
+<li><strong>Critérios:</strong> correção conceitual, criatividade da analogia e lucidez sobre seus limites.</li>
+</ul></section>
+<section id="modulo-05" class="page" hidden><h1>Módulo 05 — Vibração e Polaridade</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. IX (A Vibração), Cap. X (A Polaridade)</p>
+<p><strong>Resumo do módulo:</strong> Estes dois princípios formam o "motor" da transmutação. A
+<strong>Vibração</strong> diz que tudo se move em graus; a <strong>Polaridade</strong> diz que os opostos são
+graus de um mesmo eixo. Juntos, eles explicam <em>como</em> se muda um estado de um polo ao outro.</p>
+<hr />
+<h2>Aula 05.1 — O Princípio da Vibração</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e explicar o 3º princípio: <em>"Nada está parado; tudo se move; tudo vibra."</em></li>
+<li>Aplicar a ideia de "graus de vibração" aos estados mentais.</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"Nada está parado; tudo se move; tudo vibra." — O Caibalion</p>
+</blockquote>
+<p>Nada é absolutamente imóvel. Do que parece mais sólido ao que parece mais etéreo,
+tudo está em movimento vibratório. A diferença entre uma coisa e outra é, em grande
+parte, uma <strong>diferença de grau de vibração</strong>. A obra descreve uma escala imensa: na
+extremidade "inferior", as formas grosseiras da matéria, cujas vibrações são tão
+lentas que parecem paradas; subindo, energia, força; mais acima, os planos mentais;
+no topo, o Espírito, de vibração tão intensa que também parece imóvel de tão veloz.</p>
+<p>Curiosamente, a ciência moderna concorda com a intuição de fundo: átomos vibram,
+partículas se movem, a temperatura é agitação, tudo é energia em movimento. O Caibalion
+usava essa imagem décadas antes de ela virar senso comum científico.</p>
+<h3>Aplicação: estados mentais também vibram</h3>
+<p>O ponto prático: <strong>estados mentais são vibrações</strong>. Alegria, medo, entusiasmo,
+apatia — cada um tem, por assim dizer, uma "frequência". Mudar de estado é, então, uma
+questão de <strong>mudar a vibração mental</strong>: elevá-la, baixá-la, sintonizá-la. É isso que
+torna a transmutação (Módulo 2) tecnicamente possível — e é o que a próxima aula, sobre
+Polaridade, vai completar.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Água: gelo, líquido, vapor:</strong> a mesma substância em "velocidades" diferentes de
+  vibração molecular. Imagem perfeita de graus numa escala contínua.</p>
+</li>
+<li>
+<p><strong>A roda que some:</strong> um ventilador parado mostra as pás; girando rápido, some numa
+  mancha. Aumente o "grau" e a aparência muda por completo.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Identifique um estado mental "alto" (ex.: entusiasmo) e um "baixo" (ex.: desânimo) em você.</li>
+<li>O que costuma <strong>elevar</strong> a sua "vibração"? Liste três gatilhos concretos (música, movimento, companhia, ambiente…).</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Tudo vibra; as diferenças são, em grande parte, diferenças de grau.</li>
+<li>Estados mentais têm "frequências" que podem ser mudadas.</li>
+<li>A Vibração é a base técnica da transmutação.</li>
+</ul>
+<hr />
+<h2>Aula 05.2 — O Princípio da Polaridade</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e aplicar o 4º princípio: <em>"Tudo é duplo; os opostos são idênticos em natureza, diferentes em grau."</em></li>
+<li>Usar a polaridade para deslocar-se de um polo indesejado ao seu oposto.</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"Tudo é duplo; tudo tem polos; tudo tem o seu oposto; os opostos são idênticos em
+natureza, mas diferentes em grau; os extremos se tocam; todas as verdades são
+meias-verdades; todos os paradoxos podem reconciliar-se." — O Caibalion</p>
+</blockquote>
+<p>Eis a ideia mais surpreendente e mais útil do Caibalion: <strong>os opostos não são coisas
+diferentes, mas graus da mesma coisa</strong>. Quente e frio não são duas substâncias: são
+graus de <strong>temperatura</strong>. Onde termina o "quente" e começa o "frio"? Em nenhum ponto
+fixo — é tudo a mesma escala. O mesmo vale para luz/escuridão, alto/baixo, grande/pequeno
+e, no plano mental, para amor/ódio, coragem/medo, esperança/desânimo.</p>
+<h3>A arte de "subir a escala"</h3>
+<p>Se dois estados opostos são o <strong>mesmo eixo</strong> em graus diferentes, então é possível
+mover-se de um ao outro <strong>sem sair do eixo</strong> — apenas mudando o grau (Vibração). Não se
+transmuta medo em alegria (eixos distintos), mas se transmuta <strong>medo em coragem</strong>
+(mesmo eixo), ódio em amor, apatia em interesse. Esta é a chave técnica da transmutação
+mental: escolher o eixo certo e subir a escala rumo ao polo desejado.</p>
+<p>E a última parte do axioma — <em>"todos os paradoxos podem reconciliar-se"</em> — ensina uma
+postura mental: verdades aparentemente opostas costumam ser dois graus de uma verdade
+maior. O sábio não se prende a um polo; entende o eixo inteiro.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li><strong>O termômetro:</strong> quente e frio como graus de uma só escala — o modelo do princípio.</li>
+<li><strong>Amor e ódio:</strong> ambos são intensidade dirigida a alguém; por isso "os extremos se
+  tocam" e é mais fácil transmutar ódio em amor do que indiferença em amor.</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Escolha um par de opostos na sua vida (ex.: medo/coragem, rancor/perdão).</li>
+<li>Confirme que é <strong>o mesmo eixo</strong> (mesma "natureza", grau diferente).</li>
+<li>Descreva <strong>dois</strong> passos concretos para subir a escala rumo ao polo desejado.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Opostos são graus de um mesmo eixo — idênticos em natureza, diferentes em grau.</li>
+<li>Transmuta-se dentro de um eixo, subindo a escala de vibração.</li>
+<li>Escolher o eixo certo é o segredo prático da mudança de estados.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique como Vibração e Polaridade, juntas, tornam a transmutação possível.</li>
+<li><strong>Aplicação:</strong> documente uma transmutação real: nomeie o eixo, o polo de partida e de chegada, e os passos usados.</li>
+<li><strong>Critérios:</strong> compreensão dos dois princípios, uso correto dos axiomas e coerência da aplicação.</li>
+</ul></section>
+<section id="modulo-06" class="page" hidden><h1>Módulo 06 — Ritmo e Causalidade</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. XI (O Ritmo), Cap. XII (A Causalidade)</p>
+<p><strong>Resumo do módulo:</strong> Dois princípios que governam o <em>movimento no tempo</em>. O <strong>Ritmo</strong>
+descreve a oscilação de tudo — o vai e vem do pêndulo. A <strong>Causa e Efeito</strong> descreve a
+lei por trás do que chamamos de "acaso". Juntos, ensinam a não ser arrastado pelos
+ciclos e a agir como causa, não apenas como efeito.</p>
+<hr />
+<h2>Aula 06.1 — O Princípio do Ritmo</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e explicar o 5º princípio: <em>"Tudo tem fluxo e refluxo; o ritmo compensa."</em></li>
+<li>Aprender a "neutralização": não ser levado pelo balanço do pêndulo mental.</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"Tudo tem fluxo e refluxo; tudo tem suas marés; tudo sobe e desce; o pêndulo se
+manifesta em tudo; a medida do balanço à direita é a medida do balanço à esquerda;
+o ritmo compensa." — O Caibalion</p>
+</blockquote>
+<p>Tudo oscila. Entre os polos da Polaridade (Módulo 5) há um movimento pendular: marés
+sobem e descem, estações se sucedem, impérios crescem e ruem, o ânimo humano tem
+altos e baixos. E há uma regra dentro dessa oscilação — a <strong>compensação</strong>: a força do
+balanço para um lado mede a força do balanço para o outro. Depois de uma euforia muito
+alta tende a vir um refluxo proporcional; depois do fundo, a maré volta.</p>
+<h3>Aplicação: a lei da neutralização</h3>
+<p>O Caibalion diz que os hermetistas aprenderam a <strong>neutralizar</strong> o balanço do pêndulo
+sobre si mesmos. Não abolindo o ritmo — isso é impossível —, mas <strong>recusando-se a
+descer</strong> com o polo negativo. A imagem é a de "subir de plano": em vez de se identificar
+com a onda que sobe e desce, o praticante se estabelece num ponto mais alto e observa a
+oscilação passar por baixo, sem ser arrastado até o fundo.</p>
+<p>Na prática: sabendo que o ânimo oscila, você não decide sua vida no ponto mais baixo do
+pêndulo nem faz promessas grandiosas no ponto mais alto. Você <strong>espera a maré</strong>, ciente
+de que ela vira. Isso é maturidade emocional traduzida em lei hermética.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>O pêndulo:</strong> quanto mais longe ele vai para um lado, mais longe irá para o outro —
+  a própria imagem da compensação.</p>
+</li>
+<li>
+<p><strong>As marés do ânimo:</strong> dias "para cima" e "para baixo" que se alternam; reconhecê-los
+  como ritmo evita tomar o fundo do pêndulo como verdade permanente.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Observe por alguns dias um "pêndulo" seu (humor, energia, motivação) e anote seu ritmo.</li>
+<li>Que decisões você costuma tomar no <strong>fundo</strong> do pêndulo? Como adiá-las até a maré virar?</li>
+<li>Descreva o que seria, para você, "subir de plano" e observar a oscilação sem descer com ela.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Tudo oscila entre polos; o balanço para um lado mede o balanço para o outro.</li>
+<li>O ritmo <strong>compensa</strong>: extremos tendem a se equilibrar com o tempo.</li>
+<li>Neutralização = não descer com o polo negativo; não decidir no fundo do pêndulo.</li>
+</ul>
+<hr />
+<h2>Aula 06.2 — O Princípio da Causa e Efeito</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e aplicar o 6º princípio: <em>"Toda causa tem seu efeito; o acaso é apenas uma lei não reconhecida."</em></li>
+<li>Distinguir viver como "causa" de viver como "efeito".</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"Toda causa tem seu efeito; todo efeito tem sua causa; tudo acontece de acordo com a
+Lei; o acaso não é senão um nome para uma lei não reconhecida; há muitos planos de
+causalidade, mas nada escapa à Lei." — O Caibalion</p>
+</blockquote>
+<p>Nada acontece por puro acaso. O que chamamos de "acaso" é, para o hermetismo, apenas
+uma cadeia de causas que <strong>não reconhecemos</strong>. Isso não significa fatalismo: significa
+que existe ordem, e que compreender causas nos dá poder de agir. A obra fala em
+<strong>muitos planos de causalidade</strong> — causas físicas, mentais, sociais — e adverte que
+nada escapa à Lei, embora se possa subir a um plano de causalidade mais elevado.</p>
+<h3>Aplicação: ser causa, não apenas efeito</h3>
+<p>A distinção prática mais importante do capítulo: a maioria das pessoas vive como
+<strong>efeito</strong> — é levada pelos desejos, medos, humores e sugestões que vêm de fora, "como
+peões no tabuleiro de xadrez da vida". O hermetista busca elevar-se e tornar-se, tanto
+quanto possível, <strong>causa consciente</strong>: escolher seus fins, dirigir sua atenção,
+responder em vez de reagir. Ele continua sujeito às leis (ninguém "escapa"), mas passa
+a <strong>jogar</strong> em vez de apenas ser jogado.</p>
+<p>Cuidado com o excesso: reconhecer causas não é culpar a si mesmo por tudo, nem prometer
+controle total. É assumir a parte de agência que de fato lhe cabe — e essa parte é maior
+do que costumamos supor quando vivemos no automático.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Xadrez:</strong> as peças (efeitos) são movidas; o jogador (causa) decide. Onde você está
+  em cada área da sua vida?</p>
+</li>
+<li>
+<p><strong>Responder × reagir:</strong> entre um estímulo e sua resposta há um espaço; agir como causa
+  é ocupar conscientemente esse espaço em vez de reagir no piloto automático.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Identifique <strong>uma</strong> área em que você age como "efeito" (levado pelas circunstâncias).</li>
+<li>Proponha <strong>um</strong> passo concreto para agir como "causa" nessa área nesta semana.</li>
+<li>Onde reconhecer causas ajuda — e onde vira autocobrança injusta? Trace o limite.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Nada é mero acaso; o acaso é uma lei ainda não reconhecida.</li>
+<li>Há muitos planos de causalidade; pode-se subir a um plano mais alto.</li>
+<li>O objetivo prático é viver como <strong>causa consciente</strong>, não apenas como efeito.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique a "neutralização" (Ritmo) e a diferença entre ser causa e ser efeito (Causalidade).</li>
+<li><strong>Aplicação:</strong> relate uma decisão que você adiou até "a maré virar" e uma área em que passou a agir como causa.</li>
+<li><strong>Critérios:</strong> compreensão dos princípios, uso correto dos axiomas e realismo (sem fatalismo nem onipotência).</li>
+</ul></section>
+<section id="modulo-07" class="page" hidden><h1>Módulo 07 — Gênero e Gênero Mental</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. XIII (O Gênero), Cap. XIV (O Gênero Mental)</p>
+<p><strong>Resumo do módulo:</strong> O 7º e último princípio trata da <strong>geração</strong> — como algo novo
+vem a existir em qualquer plano. E sua aplicação mais fina é o <strong>Gênero Mental</strong>: como
+criamos ideias, tomamos decisões e nos autoinfluenciamos, através da relação entre o
+"Eu" e o "Mim".</p>
+<hr />
+<h2>Aula 07.1 — O Princípio do Gênero</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Enunciar e explicar o 7º princípio: <em>"O gênero está em tudo."</em></li>
+<li>Distinguir <strong>gênero</strong> (princípio de geração) de <strong>sexo</strong> (manifestação biológica).</li>
+</ul>
+<h3>O que o princípio afirma</h3>
+<blockquote>
+<p>"O gênero está em tudo; tudo tem seus princípios masculino e feminino; o gênero se
+manifesta em todos os planos." — O Caibalion</p>
+</blockquote>
+<p>O Gênero, no Caibalion, é o princípio pelo qual <strong>algo novo é criado ou gerado</strong>.
+Toda criação envolve dois papéis complementares: um <strong>princípio masculino</strong>, que
+inicia, projeta, dá o impulso; e um <strong>princípio feminino</strong>, que recebe, gesta,
+elabora e faz vir à existência. Não são "coisas", são <strong>funções</strong> presentes em todos
+os planos — do físico ao mental.</p>
+<h3>Gênero ≠ sexo</h3>
+<p>Ponto essencial para evitar confusões: <strong>gênero</strong> (o princípio de geração) é bem mais
+amplo que <strong>sexo</strong> (a manifestação biológica em seres vivos). O sexo é apenas uma das
+formas do gênero no plano físico. No átomo, nos polos elétricos, na dinâmica das
+células, e sobretudo na mente, o mesmo par funcional — iniciar/gestar — opera sem ter
+nada a ver com biologia. Toda pessoa, qualquer que seja, carrega <strong>os dois princípios</strong>
+e os usa o tempo todo, especialmente ao criar.</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Polos do ímã / cargas elétricas:</strong> positivo e negativo não valem nada isolados;
+  é da relação entre eles que surge a corrente. Complementaridade que gera.</p>
+</li>
+<li>
+<p><strong>A obra e a ideia:</strong> uma ideia (impulso, princípio masculino) precisa ser "gestada"
+  no trabalho paciente (elaboração, princípio feminino) para virar uma obra concreta.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>
+<p>Pense em algo que você criou (um projeto, um texto, uma solução). Identifique nele o
+   "polo que iniciou" (impulso) e o "polo que gestou/realizou" (elaboração).</p>
+</li>
+<li>
+<p>Qual dos dois princípios você exercita com facilidade e qual precisa desenvolver?</p>
+</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Gênero é o princípio da geração: iniciar (masculino) + gestar (feminino).</li>
+<li>Está em todos os planos; <strong>gênero não é sexo</strong>.</li>
+<li>Cada pessoa contém e usa os dois princípios, sobretudo ao criar.</li>
+</ul>
+<hr />
+<h2>Aula 07.2 — O Gênero Mental</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Explicar o Gênero aplicado à mente: o <strong>"Eu"</strong> e o <strong>"Mim"</strong>.</li>
+<li>Compreender autossugestão e criação mental à luz deste princípio.</li>
+</ul>
+<h3>O "Eu" e o "Mim"</h3>
+<p>O Caibalion aplica o Gênero ao interior da mente com uma distinção fina. Há em nós um
+<strong>"Eu"</strong> — o princípio masculino mental: a vontade, a atenção que dirige, o que decide
+e projeta. E há um <strong>"Mim"</strong> — o princípio feminino mental: a parte receptiva,
+imaginativa e habitual (o que hoje associaríamos ao subconsciente), que recebe as
+impressões, as elabora e as faz frutificar em hábitos, humores e ideias.</p>
+<p>A criação mental acontece na <strong>relação</strong> entre os dois: o "Eu" planta (dirige a
+atenção, escolhe a imagem, formula a intenção) e o "Mim" gesta (incuba, associa,
+devolve pronto — muitas vezes horas ou dias depois, como o "insight" que "surge do
+nada"). Quando essa relação está desregulada, o "Mim" é semeado ao acaso, por qualquer
+sugestão externa; quando está bem conduzida, o "Eu" escolhe <strong>o que</strong> semear.</p>
+<h3>Autossugestão como semeadura</h3>
+<p>A autossugestão, entendida assim, deixa de ser truque e vira <strong>jardinagem mental</strong>:
+escolher com cuidado a "semente" (uma intenção, uma imagem, uma frase-guia) e cultivá-la
+com <strong>atenção e repetição</strong>, deixando o "Mim" fazer o seu trabalho de gestação. Não é
+mágica nem controle absoluto: é a aplicação paciente do Gênero ao próprio interior — e
+o encontro natural de todos os princípios anteriores (Mentalismo, Vibração, Polaridade,
+Ritmo, Causa).</p>
+<p><strong>Exemplos/analogias</strong></p>
+<ul>
+<li>
+<p><strong>Semente e solo:</strong> a ideia é a semente (princípio masculino); a imaginação/subconsciente
+  é o solo (princípio feminino) que a faz germinar. Sem solo, a semente seca; sem semente,
+  o solo produz mato.</p>
+</li>
+<li>
+<p><strong>O problema que "resolve sozinho":</strong> você formula bem a pergunta à noite (o "Eu"
+  semeia) e acorda com a resposta (o "Mim" gestou). Gênero mental em ação.</p>
+</li>
+</ul>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Formule <strong>uma</strong> "semente" mental positiva e realista (uma intenção ou frase-guia).</li>
+<li>Descreva como você vai <strong>cultivá-la</strong> com atenção e repetição por sete dias.</li>
+<li>Ao final, observe: o "Mim" devolveu algo (ideias, disposição, mudança de humor)?</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Na mente: "Eu" (vontade que dirige) e "Mim" (receptivo que gesta).</li>
+<li>Criar mentalmente é o "Eu" semear e o "Mim" gestar.</li>
+<li>Autossugestão bem-feita é jardinagem mental — atenção + repetição, não mágica.</li>
+</ul>
+<hr />
+<h2>Avaliação do módulo</h2>
+<ul>
+<li><strong>Dissertativa:</strong> explique a diferença entre gênero e sexo e descreva a dinâmica "Eu"/"Mim".</li>
+<li><strong>Aplicação:</strong> relate o resultado do seu experimento de "semeadura" mental de sete dias.</li>
+<li><strong>Critérios:</strong> clareza na distinção gênero × sexo, compreensão do gênero mental e honestidade na aplicação.</li>
+</ul></section>
+<section id="modulo-08" class="page" hidden><h1>Módulo 08 — Axiomas Herméticos e Aplicação Integrada (Projeto Final)</h1>
+<p><strong>Capítulos-fonte:</strong> Cap. XV (Axiomas Herméticos)</p>
+<p><strong>Resumo do módulo:</strong> O fecho do curso. Primeiro, recolhemos as <strong>máximas práticas</strong>
+que resumem a aplicação dos princípios ao dia a dia. Depois, você integra tudo num
+<strong>projeto final</strong>: analisar uma situação real da sua vida pelas sete lentes e propor
+uma transmutação concreta.</p>
+<hr />
+<h2>Aula 08.1 — Axiomas Herméticos</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Interpretar as principais máximas do capítulo final e transformá-las em lembretes de uso.</li>
+</ul>
+<h3>Máximas como "lembretes de bolso"</h3>
+<p>O capítulo final do Caibalion reúne axiomas — frases curtas que <strong>condensam</strong> a
+aplicação de um princípio. Sua função é prática: no calor da vida, você não vai reler
+um capítulo inteiro; vai lembrar de <strong>uma frase</strong> que reorienta a ação. Alguns dos mais
+importantes:</p>
+<ul>
+<li>
+<p><em>"A verdadeira transmutação hermética é uma arte mental."</em>
+  → Lembrete do Mentalismo + transmutação: o trabalho é interno, feito pela mente.</p>
+</li>
+<li>
+<p><em>"Para mudar o seu humor ou estado mental, mude a sua vibração."</em>
+  → Vibração aplicada: aja no grau (foco, corpo, ambiente), não espere "passar sozinho".</p>
+</li>
+<li>
+<p><em>"A mente (assim como os metais e os elementos) pode ser transmutada de estado a
+  estado, de grau a grau."</em>
+  → Polaridade + Vibração: mudança se faz por graus, dentro de um eixo.</p>
+</li>
+<li>
+<p><em>"O ritmo pode ser neutralizado pela aplicação da arte da polarização."</em>
+  → Ritmo: não descer com o pêndulo; fixar-se no polo desejado.</p>
+</li>
+<li>
+<p><em>"O sábio serve-se da Lei contra as leis; equilibra as forças e ocupa o seu lugar."</em>
+  → Causa e Efeito: subir a um plano de causalidade mais alto; ser causa.</p>
+</li>
+<li>
+<p><em>"Os lábios da sabedoria permanecem fechados, exceto para os ouvidos do Entendimento."</em>
+  → Postura de fundo: compreender exige preparo, não apenas informação.</p>
+</li>
+</ul>
+<h3>Da frase à ação</h3>
+<p>Um axioma só serve quando vira gesto. A técnica é simples: reescreva cada máxima em
+<strong>linguagem sua</strong>, ligada a uma situação concreta, e deixe-a acessível (um bilhete, o
+papel de parede do celular, um lembrete). Quando a situação chegar, a frase chega junto.</p>
+<p><strong>Exercício / reflexão</strong></p>
+<ol>
+<li>Escolha <strong>três</strong> axiomas e reescreva-os como lembretes na sua própria linguagem.</li>
+<li>Para cada um, aponte <strong>uma</strong> situação típica sua em que ele entraria em ação.</li>
+</ol>
+<p><strong>Pontos-chave</strong></p>
+<ul>
+<li>Axiomas condensam princípios em frases acionáveis.</li>
+<li>Reescritos em linguagem própria e mantidos à mão, viram gatilhos de bom comportamento mental.</li>
+</ul>
+<hr />
+<h2>Aula 08.2 — Projeto Final: transmutar um caso real</h2>
+<p><strong>Objetivos de aprendizagem</strong></p>
+<ul>
+<li>Integrar os sete princípios na análise e na transformação de uma situação concreta.</li>
+</ul>
+<h3>A tarefa</h3>
+<p>Escolha <strong>uma</strong> situação real e atual da sua vida — um conflito, um hábito, uma decisão
+travada, um estado emocional recorrente. Você vai analisá-la pelas <strong>sete lentes</strong> e
+produzir um plano de transmutação acompanhável. Este é o exercício que reúne tudo o que
+o curso ensinou.</p>
+<h3>Roteiro pelas sete lentes</h3>
+<p>Para a sua situação, responda:</p>
+<ol>
+<li><strong>Mentalismo</strong> — Que parte disto é um estado da <em>minha</em> mente? Onde a interpretação pesa tanto quanto o fato?</li>
+<li><strong>Correspondência</strong> — Onde já vi este padrão antes (em outra área, em outra fase)? O que aquilo me ensina aqui?</li>
+<li><strong>Vibração</strong> — Em que "estado/grau" eu costumo estar diante disto? O que eleva e o que rebaixa esse estado?</li>
+<li><strong>Polaridade</strong> — Qual é o <strong>eixo</strong> em jogo (ex.: rancor↔perdão, medo↔coragem)? Qual polo eu quero?</li>
+<li><strong>Ritmo</strong> — Isto é fase de um ciclo? Estou decidindo no fundo do pêndulo? Vale esperar a maré virar?</li>
+<li><strong>Causa e Efeito</strong> — Onde ajo como efeito? Qual <strong>um</strong> passo me torna causa consciente aqui?</li>
+<li><strong>Gênero</strong> — O que quero <strong>gerar</strong>? Qual "semente" mental plantar e como cultivá-la (atenção + repetição)?</li>
+</ol>
+<h3>Entrega</h3>
+<p>Um texto de <strong>1 a 2 páginas</strong> contendo:</p>
+<ul>
+<li><strong>(a)</strong> descrição da situação;</li>
+<li><strong>(b)</strong> a leitura pelas sete lentes (as respostas acima, desenvolvidas);</li>
+<li><strong>(c)</strong> um <strong>plano de transmutação em passos</strong>, com o que fazer nos próximos 7–30 dias
+  e como você vai perceber que está funcionando.</li>
+</ul>
+<p><strong>Exemplo/analogia</strong> — Um conflito recorrente com alguém pode ser lido por Polaridade
+(estou preso ao polo do rancor), Ritmo (reajo sempre nos dias "para baixo"), Causa e
+Efeito (venho agindo como efeito das provocações) e Gênero (quero gerar uma relação
+diferente): o plano nasce dessa leitura cruzada.</p>
+<p><strong>Critérios de avaliação do projeto</strong></p>
+<ul>
+<li>Uso correto e articulado dos princípios (não apenas citados, mas aplicados).</li>
+<li>Realismo e responsabilidade do plano (nada de promessas mágicas).</li>
+<li>Clareza, honestidade e um critério concreto de acompanhamento.</li>
+</ul>
+<hr />
+<h2>Encerramento do curso</h2>
+<p>Você percorreu a "chave-mestra": do que é o Caibalion (M1), passando pelo Mentalismo e
+a transmutação (M2), a metafísica do Todo (M3), o método da Correspondência (M4), o
+motor Vibração+Polaridade (M5), os ciclos e a Lei (M6), a geração e o gênero mental
+(M7), até a síntese prática (M8). O próximo passo não é ler mais — é <strong>usar as sete
+lentes</strong> até que perguntar por elas se torne natural. Como diz a obra: a verdadeira
+transmutação é uma arte, e arte se aprende praticando.</p></section>
+<section id="axiomas" class="page" hidden><h1>Os Sete Princípios e seus Axiomas</h1>
+<p>Axiomas centrais do <em>Caibalion</em>, para consulta rápida no curso.</p>
+<blockquote>
+<p><strong>Abertura:</strong> "Os lábios da sabedoria permanecem fechados, exceto para os ouvidos
+do Entendimento."</p>
+</blockquote>
+<h2>1. Mentalismo</h2>
+<blockquote>
+<p>"O Todo é Mente; o Universo é Mental."</p>
+</blockquote>
+<p>Tudo o que existe é, em última instância, de natureza mental — criação da Mente do Todo.</p>
+<h2>2. Correspondência</h2>
+<blockquote>
+<p>"O que está em cima é como o que está embaixo; o que está embaixo é como o que
+está em cima."</p>
+</blockquote>
+<p>Há correspondência entre os planos (físico, mental, espiritual): o conhecido ilumina
+o desconhecido por analogia.</p>
+<h2>3. Vibração</h2>
+<blockquote>
+<p>"Nada está parado; tudo se move; tudo vibra."</p>
+</blockquote>
+<p>Do espírito à matéria, tudo é uma escala de vibração; estados mentais também vibram.</p>
+<h2>4. Polaridade</h2>
+<blockquote>
+<p>"Tudo é duplo; tudo tem polos; tudo tem o seu oposto; os opostos são idênticos em
+natureza, mas diferentes em grau; os extremos se tocam; todas as verdades são
+meias-verdades; todos os paradoxos podem reconciliar-se."</p>
+</blockquote>
+<p>Opostos (quente/frio, amor/ódio) são graus de um mesmo eixo — daí a possibilidade de
+"subir a escala" de um polo ao outro.</p>
+<h2>5. Ritmo</h2>
+<blockquote>
+<p>"Tudo tem fluxo e refluxo; tudo tem suas marés; tudo sobe e desce; o pêndulo se
+manifesta em tudo; a medida do balanço à direita é a medida do balanço à esquerda;
+o ritmo compensa."</p>
+</blockquote>
+<p>Tudo oscila em ciclos; é possível "neutralizar" o balanço do pêndulo mental.</p>
+<h2>6. Causa e Efeito (Causalidade)</h2>
+<blockquote>
+<p>"Toda causa tem seu efeito; todo efeito tem sua causa; tudo acontece de acordo com
+a Lei; o acaso não é senão um nome para uma lei não reconhecida; há muitos planos
+de causalidade, mas nada escapa à Lei."</p>
+</blockquote>
+<p>Nada é fruto do mero acaso; pode-se buscar ser "causa" consciente, não só "efeito".</p>
+<h2>7. Gênero</h2>
+<blockquote>
+<p>"O gênero está em tudo; tudo tem seus princípios masculino e feminino; o gênero se
+manifesta em todos os planos."</p>
+</blockquote>
+<p>Princípios de geração/criação (masculino e feminino) operam em todos os planos —
+inclusive no mental (o "Eu" e o "Mim").</p>
+<hr />
+<h2>Máxima prática (Cap. XV)</h2>
+<blockquote>
+<p>"A verdadeira transmutação hermética é uma arte mental."</p>
+<p><em>Observação:</em> os axiomas acima seguem a formulação clássica do Caibalion. A
+transcrição em <code>livro/</code> (legenda de áudio) pode apresentar variações de redação;
+em caso de dúvida, prevalece a formulação desta página.</p>
+</blockquote></section>
+<section id="glossario" class="page" hidden><h1>Glossário Hermético</h1>
+<p>Termos-chave do curso e do <em>Caibalion</em>.</p>
+<ul>
+<li>
+<p><strong>Alquimia mental</strong> — arte de transformar estados e condições mentais; a face
+  prática do princípio do Mentalismo (ver "transmutação mental").</p>
+</li>
+<li>
+<p><strong>Axioma</strong> — máxima que resume um princípio, servindo de "chave" para aplicá-lo.</p>
+</li>
+<li>
+<p><strong>Caibalion (O)</strong> — a obra de 1908, atribuída aos "Três Iniciados", que expõe os
+  sete princípios herméticos.</p>
+</li>
+<li>
+<p><strong>Causalidade</strong> — o 6º princípio (causa e efeito); nada acontece por mero acaso.</p>
+</li>
+<li><strong>Correspondência</strong> — o 2º princípio; "como em cima, assim embaixo".</li>
+<li>
+<p><strong>Gênero</strong> — o 7º princípio; princípios masculino e feminino de geração/criação em
+  todos os planos (distinto de sexo biológico).</p>
+</li>
+<li>
+<p><strong>Gênero mental</strong> — aplicação do gênero à mente: o "Eu" (vontade/consciente) e o
+  "Mim" (receptivo/subconsciente).</p>
+</li>
+<li>
+<p><strong>Grau</strong> — no Caibalion, opostos diferem em <em>grau</em>, não em espécie (ex.: quente/frio).</p>
+</li>
+<li><strong>Hermes Trismegisto</strong> — figura lendária tida como fonte da filosofia hermética.</li>
+<li><strong>Hermetismo</strong> — tradição filosófico-espiritual associada a Hermes Trismegisto.</li>
+<li><strong>Hermetista</strong> — estudante ou praticante do hermetismo.</li>
+<li><strong>Imanência</strong> — presença do Todo em todas as coisas ("'O Todo' em Tudo").</li>
+<li><strong>Mentalismo</strong> — o 1º princípio; "o Todo é Mente; o universo é mental".</li>
+<li><strong>Neutralização</strong> — arte de não se deixar arrastar pelo balanço do pêndulo (Ritmo).</li>
+<li>
+<p><strong>Novo Pensamento (New Thought)</strong> — movimento do fim do séc. XIX / início do XX ao
+  qual o Caibalion pertence historicamente.</p>
+</li>
+<li>
+<p><strong>Paradoxo Divino</strong> — a tensão entre o real e o ilusório; usar a Lei sem ser seu escravo.</p>
+</li>
+<li><strong>Pêndulo</strong> — imagem do princípio do Ritmo: tudo oscila entre polos.</li>
+<li><strong>Planos</strong> — níveis da existência: físico, mental e espiritual (com sub-planos).</li>
+<li><strong>Polaridade</strong> — o 4º princípio; tudo é duplo, opostos idênticos em natureza.</li>
+<li><strong>Preceitos herméticos</strong> — os ensinamentos da tradição hermética.</li>
+<li><strong>Ritmo</strong> — o 5º princípio; fluxo e refluxo, marés, compensação.</li>
+<li><strong>Todo (O)</strong> — a realidade última, incognoscível em essência; a "Mente" universal.</li>
+<li>
+<p><strong>Transmutação mental</strong> — mudar estados mentais de um polo a outro (aplicação
+  conjunta de Mentalismo, Polaridade e Vibração).</p>
+</li>
+<li>
+<p><strong>Vibração</strong> — o 3º princípio; nada está parado, tudo vibra em graus.</p>
+</li>
+</ul></section>
+<section id="mapa" class="page" hidden><h1>Mapa de Correspondências entre os Princípios</h1>
+<p>Os sete princípios não são ilhas: eles se combinam. Este mapa ajuda a ensiná-los de
+forma integrada.</p>
+<h2>Como os princípios se conectam</h2>
+<ul>
+<li>
+<p><strong>Mentalismo (1)</strong> é a base: se tudo é mente, então a mente é a alavanca de
+  mudança — o que fundamenta toda a <strong>transmutação mental</strong>.</p>
+</li>
+<li>
+<p><strong>Transmutação mental</strong> = Mentalismo (1) + Polaridade (4) + Vibração (3):
+  muda-se o <em>grau</em> (Vibração) ao longo de um <em>eixo de opostos</em> (Polaridade), porque
+  tudo é, na raiz, <em>mental</em> (Mentalismo).</p>
+</li>
+<li>
+<p><strong>Correspondência (2)</strong> é o método: permite raciocinar do conhecido ao
+  desconhecido e ver o mesmo padrão nos vários <strong>planos</strong>.</p>
+</li>
+<li>
+<p><strong>Vibração (3)</strong> e <strong>Polaridade (4)</strong> andam juntas: os polos são graus extremos de
+  uma mesma escala de vibração.</p>
+</li>
+<li>
+<p><strong>Ritmo (5)</strong> explica a oscilação entre os polos da Polaridade (4); a
+  <strong>neutralização</strong> é aplicar a vontade para não ser arrastado pelo pêndulo.</p>
+</li>
+<li>
+<p><strong>Causa e Efeito (6)</strong> convida a ser <em>causa</em> consciente — o que só faz sentido se
+  a mente pode agir sobre os estados (Mentalismo + Transmutação).</p>
+</li>
+<li>
+<p><strong>Gênero (7)</strong> descreve <em>como</em> algo novo é gerado em qualquer plano; no plano
+  mental (Gênero Mental) explica a criação de ideias e a autossugestão.</p>
+</li>
+</ul>
+<h2>Tabela: princípio → aplicação prática</h2>
+<table>
+<thead>
+<tr>
+<th>Princípio</th>
+<th>Pergunta prática</th>
+<th>Aplicação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Mentalismo</td>
+<td>"Isto é, em parte, um estado da minha mente?"</td>
+<td>Assumir a mente como ponto de intervenção</td>
+</tr>
+<tr>
+<td>2. Correspondência</td>
+<td>"Onde já vi este padrão antes?"</td>
+<td>Aprender por analogia entre planos</td>
+</tr>
+<tr>
+<td>3. Vibração</td>
+<td>"Em que 'grau/estado' estou agora?"</td>
+<td>Elevar/ajustar o estado mental</td>
+</tr>
+<tr>
+<td>4. Polaridade</td>
+<td>"Qual é o polo oposto deste estado?"</td>
+<td>Deslocar-se do medo à coragem, do ódio ao amor</td>
+</tr>
+<tr>
+<td>5. Ritmo</td>
+<td>"Isto é uma fase de um ciclo?"</td>
+<td>Não decidir no fundo do pêndulo; neutralizar</td>
+</tr>
+<tr>
+<td>6. Causa e Efeito</td>
+<td>"Sou causa ou efeito nesta situação?"</td>
+<td>Agir como causa consciente</td>
+</tr>
+<tr>
+<td>7. Gênero</td>
+<td>"O que estou gerando e como cultivá-lo?"</td>
+<td>Plantar e nutrir 'sementes' mentais</td>
+</tr>
+</tbody>
+</table>
+<h2>Fio condutor do curso</h2>
+<p>Fundamentos (M1) → Mentalismo e transmutação (M2) → metafísica do Todo (M3) →
+método da correspondência e planos (M4) → o "motor" vibração+polaridade (M5) →
+os ciclos e a lei (ritmo+causalidade, M6) → a geração (gênero, M7) →
+síntese e prática (axiomas + projeto, M8).</p></section></div>
+  <div class="footer">Curso &amp; transcrição de <em>O Caibalion</em> · obra e tradução em domínio público · material do curso: produção original.</div>
+</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement, saved=localStorage.getItem('theme');
+  if(saved) root.setAttribute('data-theme',saved);
+  var tb=document.getElementById('themeBtn');
+  function tlabel(){var d=root.getAttribute('data-theme');
+    var dark=d?d==='dark':matchMedia('(prefers-color-scheme:dark)').matches; if(tb)tb.textContent=dark?'☀ Claro':'☾ Escuro';}
+  tlabel(); if(tb)tb.onclick=function(){var c=root.getAttribute('data-theme');
+    var dark=c?c==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+    var n=dark?'light':'dark';root.setAttribute('data-theme',n);localStorage.setItem('theme',n);tlabel();};
+  var sb=document.getElementById('sidebar'),mb=document.getElementById('menuBtn');
+  if(mb)mb.onclick=function(){sb.classList.toggle('open');};
+  var links=[].slice.call(document.querySelectorAll('.navlink'));
+  var pages=[].slice.call(document.querySelectorAll('.page'));
+  function show(id){
+    pages.forEach(function(p){p.hidden=(p.id!==id);});
+    document.querySelectorAll('.navlink').forEach(function(a){a.classList.toggle('active',a.getAttribute('data-id')===id);});
+    var act=document.querySelector('.navlink[data-id="'+id+'"]');
+    document.getElementById('crumb').textContent=act?act.textContent:'Início';
+    window.scrollTo(0,0); if(window.innerWidth<=860)sb.classList.remove('open');
+  }
+  function fromHash(){var id=(location.hash||'#inicio').slice(1); if(!document.getElementById(id))id='inicio'; show(id);}
+  links.forEach(function(a){a.addEventListener('click',function(e){
+    var id=a.getAttribute('data-id'); history.replaceState(null,'','#'+id); e.preventDefault(); show(id);});});
+  window.addEventListener('hashchange',fromHash); fromHash();
+})();
+</script>
+</body></html>
