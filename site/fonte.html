@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sobre a transcrição — O Caibalion</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div class="layout">
+<nav class="sidebar" id="sidebar">
+<div class="brand"><span class="glyph">☿</span><div><strong>O Caibalion</strong><small>Curso &amp; Transcrição</small></div></div>
+<div class="nav-group"><span class="nav-group-title">Início</span><ul>
+<li><a href="index.html">Início</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Sobre</span><ul>
+<li><a href="sobre.html">Visão geral</a></li>
+<li><a href="guia-ia.html">Guia do Tutor (CLAUDE.md)</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">O Livro</span><ul>
+<li><a href="livro.html">Transcrição do Caibalion</a></li>
+<li><a href="fonte.html" class="active">Sobre a transcrição</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Curso</span><ul>
+<li><a href="ementa.html">Ementa do curso</a></li>
+<li><a href="facilitador.html">Guia do facilitador</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Módulos</span><ul>
+<li><a href="modulo-01.html">M01 · Fundamentos</a></li>
+<li><a href="modulo-02.html">M02 · Mentalismo e Transmutação</a></li>
+<li><a href="modulo-03.html">M03 · O Todo e o Universo Mental</a></li>
+<li><a href="modulo-04.html">M04 · Correspondência e Planos</a></li>
+<li><a href="modulo-05.html">M05 · Vibração e Polaridade</a></li>
+<li><a href="modulo-06.html">M06 · Ritmo e Causalidade</a></li>
+<li><a href="modulo-07.html">M07 · Gênero e Gênero Mental</a></li>
+<li><a href="modulo-08.html">M08 · Axiomas e Projeto Final</a></li>
+</ul></div>
+<div class="nav-group"><span class="nav-group-title">Recursos</span><ul>
+<li><a href="axiomas.html">Os 7 Axiomas</a></li>
+<li><a href="glossario.html">Glossário</a></li>
+<li><a href="mapa.html">Mapa de correspondências</a></li>
+</ul></div>
+</nav>
+<div class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <div style="font-weight:600">Sobre a transcrição</div>
+    <button class="theme-btn" id="themeBtn">Tema</button>
+  </div>
+  <div class="content">
+    <h1 id="pasta-livro-o-texto-fonte">Pasta <code>livro/</code> — o texto-fonte</h1>
+<h2 id="arquivos">Arquivos</h2>
+<ul>
+<li><strong><code>caibalion-sem-timestamps.md</code></strong> — a transcrição do audiolivro (legenda automática
+  do YouTube) com os <strong>timestamps removidos</strong>. É o material enviado pelo usuário,
+  processado.</li>
+</ul>
+<h2 id="o-que-foi-feito">O que foi feito</h2>
+<p>A partir da legenda automática (formato <code>M:SS</code>/<code>H:MM:SS</code> colado à duração falada,
+ex.: <code>0:09 9 segundos</code>), um script determinístico:</p>
+<ol>
+<li>Removeu <strong>todos</strong> os marcadores de tempo do início de cada linha (2.245 ocorrências).</li>
+<li>Juntou os fragmentos em texto corrido (a legenda quebrava as frases no meio).</li>
+<li>Aplicou um pequeno conjunto de <strong>correções globais seguras</strong> de erros de
+   reconhecimento de voz: <code>Adventistas → hermetistas</code>, <code>Carvalho → Caibalion</code>,
+   <code>herpes → Hermes</code>, <code>trismegisto → Trismegisto</code>.</li>
+</ol>
+<p>Resultado: ~33.500 palavras, cobrindo introdução + os sete princípios + capítulos,
+terminando em <em>"o Todo é Mente; o universo é..."</em>.</p>
+<h2 id="avisos-de-fidelidade-importante">Avisos de fidelidade (importante)</h2>
+<ul>
+<li><strong>Não é uma transcrição verbatim</strong> da edição impressa. É fala convertida em texto
+  por máquina: <strong>sem pontuação</strong> e com <strong>erros de reconhecimento remanescentes</strong>.</li>
+<li>Serve muito bem como <strong>base de estudo e referência de ideias</strong>, mas para citações
+  literais use os axiomas em <code>../curso/recursos/axiomas.md</code>.</li>
+</ul>
+<h2 id="como-obter-uma-versao-verbatim-fiel-proximo-passo-opcional">Como obter uma versão verbatim fiel (próximo passo opcional)</h2>
+<p>O original inglês (<em>The Kybalion</em>, 1908) e a tradução de <strong>Rosabis Camaysar (1920)</strong>
+estão em <strong>domínio público</strong>. Se você fornecer o <strong>PDF ou texto</strong> de uma dessas
+edições (anexando no chat), é possível gerar uma transcrição verbatim, pontuada e
+dividida capítulo a capítulo, em um novo arquivo <code>caibalion-verbatim.md</code> — sem
+sobrescrever este.</p>
+    <div class="pager"><a href="livro.html"><small>← Anterior</small>Transcrição do Caibalion</a><a href="ementa.html" style="text-align:right"><small>Próximo →</small>Ementa do curso</a></div>
+  </div>
+  <div class="footer">Curso &amp; transcrição de <em>O Caibalion</em> · obra e tradução em domínio público · material do curso: produção original.</div>
+</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  var saved=localStorage.getItem('theme');
+  if(saved){root.setAttribute('data-theme',saved);}
+  var tb=document.getElementById('themeBtn');
+  function label(){var d=root.getAttribute('data-theme');
+    var dark = d? d==='dark' : matchMedia('(prefers-color-scheme:dark)').matches;
+    if(tb) tb.textContent = dark ? '☀ Claro' : '☾ Escuro';}
+  label();
+  if(tb) tb.onclick=function(){
+    var cur=root.getAttribute('data-theme');
+    var dark = cur? cur==='dark' : matchMedia('(prefers-color-scheme:dark)').matches;
+    var next = dark ? 'light':'dark';
+    root.setAttribute('data-theme',next);localStorage.setItem('theme',next);label();};
+  var mb=document.getElementById('menuBtn'),sb=document.getElementById('sidebar');
+  if(mb) mb.onclick=function(){sb.classList.toggle('open');};
+  document.addEventListener('click',function(e){
+    if(window.innerWidth<=860 && sb.classList.contains('open') &&
+       !sb.contains(e.target) && e.target!==mb){sb.classList.remove('open');}});
+})();
+</script>
+</body></html>
